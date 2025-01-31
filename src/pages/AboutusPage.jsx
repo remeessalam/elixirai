@@ -20,7 +20,7 @@ const AboutusPage = () => {
             Innovating the Future with Advanced AI and Digital Solutions
           </h1>
           <p data-aos="fade-right" className="description mt-4">
-            At [your-company-name], we are dedicated to pushing the limits of
+            At ELIXIR AI, we are dedicated to pushing the limits of
             technological innovation with our advanced AI and digital solutions.
             As leaders in artificial intelligence, blockchain, AR/VR, game
             development, and IoT, we leverage our expertise to transform your
@@ -31,10 +31,10 @@ const AboutusPage = () => {
             delivering customized solutions that drive impactful, measurable
             results. Our subsidiary, Appgalaxy, specializes in delivering
             cutting-edge website and app development services. Together, as a
-            cohesive unit, [your-company-name] and Appgalaxy provide a
-            comprehensive suite of services designed to propel your business to
-            new heights. Trust in our commitment to quality, excellence, and
-            innovation—experience the future with [your-company-name]
+            cohesive unit, ELIXIR AI and Appgalaxy provide a comprehensive suite
+            of services designed to propel your business to new heights. Trust
+            in our commitment to quality, excellence, and innovation—experience
+            the future with ELIXIR AI
           </p>
         </div>
         <img

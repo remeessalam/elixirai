@@ -61,10 +61,10 @@ const CompanyAchievements = () => {
             Driving AI Innovation Today, Shaping a Smarter Tomorrow
           </h3>
           <p data-aos="fade-up" className=" text-white/80 text-desc ">
-            At [your-company-name]., we specialize in creating customized
-            technology solutions that drive business success. Our expert team
-            leverages cutting-edge innovation to help companies enhance
-            efficiency, accelerate growth, and stay ahead of the competition.
+            At ELIXIR AI., we specialize in creating customized technology
+            solutions that drive business success. Our expert team leverages
+            cutting-edge innovation to help companies enhance efficiency,
+            accelerate growth, and stay ahead of the competition.
           </p>
           <Link data-aos="fade-up" to={"/services"} className="">
             <h3 className="primary-btn  w-fit">Discover More</h3>

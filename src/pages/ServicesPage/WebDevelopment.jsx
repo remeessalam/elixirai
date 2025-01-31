@@ -43,17 +43,16 @@ const WebDevelopment = () => {
           Web Development
         </h2>
         <h3 data-aos="fade-up" className="text-xl font-medium mt-2">
-          [Your Company Name] - Crafting Digital Experiences
+          ELIXIR AI - Crafting Digital Experiences
         </h3>
 
         <p data-aos="fade-up" className="description">
           Your website is often the first impression you make on potential
           customers. It needs to be engaging, functional, and user-friendly. At
-          [Your Company Name], we build custom websites that are crafted to meet
-          the unique needs of your business. Whether you need a dynamic
-          corporate site, an eCommerce platform, or a simple landing page, we
-          ensure your website provides a seamless user experience, no matter the
-          device.
+          ELIXIR AI, we build custom websites that are crafted to meet the
+          unique needs of your business. Whether you need a dynamic corporate
+          site, an eCommerce platform, or a simple landing page, we ensure your
+          website provides a seamless user experience, no matter the device.
         </p>
       </div>
       <div className="mt-3 flex flex-col gap-4 md:px-5">

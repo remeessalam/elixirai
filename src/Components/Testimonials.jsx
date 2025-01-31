@@ -113,7 +113,7 @@ const Testimonials = () => {
             <div className="flex flex-col gap-5">
               <h3 className="heading">Our CEO Message</h3>
               <p className="description">
-                At AI Company, we leverage the power of AI to create
+                At ELIXIR AI, we leverage the power of AI to create
                 transformative digital experiences that elevate businesses. Our
                 commitment to innovation drives us to develop intelligent
                 solutions that enhance efficiency and foster growth. Together,

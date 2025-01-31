@@ -96,7 +96,7 @@ export const allServices = [
     title: "Web Development",
     link: "/services/web-development",
     description:
-      "Your website is often the first impression you make on potential customers. It needs to be engaging, functional, and user-friendly. At [Your Company Name], we build custom websites that are crafted to meet the unique needs of your business. Whether you need a dynamic corporate site, an eCommerce platform, or a simple landing page, we ensure your website provides a seamless user experience, no matter the device.",
+      "Your website is often the first impression you make on potential customers. It needs to be engaging, functional, and user-friendly. At ELIXIR AI, we build custom websites that are crafted to meet the unique needs of your business. Whether you need a dynamic corporate site, an eCommerce platform, or a simple landing page, we ensure your website provides a seamless user experience, no matter the device.",
     services: [
       {
         heading: "Custom Web Development",
@@ -309,7 +309,7 @@ export const bestServices = [
     icon: appDevIcon,
     img: appDevCardImg,
     description:
-      "AppGalaxy, a subsidiary of [your-company-name], specializes in premium website and app development services. We work across platforms to deliver seamless digital experiences that scale new customer acquisition and retention for commerce brands.",
+      "AppGalaxy, a subsidiary of ELIXIR AI, specializes in premium website and app development services. We work across platforms to deliver seamless digital experiences that scale new customer acquisition and retention for commerce brands.",
     link: "/services/web-app-development",
   },
 
@@ -350,7 +350,7 @@ export const testimonials = [
     name: "Rohan Sharma",
     title: "CEO of ShopSmart Pvt Ltd",
     description:
-      "Working with [Your Company Name] was a game-changer for our e-commerce business. We needed a mobile app that could handle a large inventory and ensure a seamless shopping experience for our customers. [Your Company Name] not only delivered a user-friendly app for both Android and iOS but also integrated real-time inventory management and personalized recommendations using AI algorithms. Their team was incredibly responsive and flexible, making adjustments based on our feedback at every stage of development.",
+      "Working with ELIXIR AI was a game-changer for our e-commerce business. We needed a mobile app that could handle a large inventory and ensure a seamless shopping experience for our customers. ELIXIR AI not only delivered a user-friendly app for both Android and iOS but also integrated real-time inventory management and personalized recommendations using AI algorithms. Their team was incredibly responsive and flexible, making adjustments based on our feedback at every stage of development.",
   },
   {
     id: 2,
@@ -358,7 +358,7 @@ export const testimonials = [
     name: "Priya Bansal",
     title: "Managing Director of SafeFunds Financial Group",
     description:
-      "As a financial services company, we required a blockchain solution to improve transparency and security for our clients. We approached [Your Company Name] with a complex set of requirements involving smart contracts, secure transaction tracking, and decentralized data storage. Their team impressed us with their in-depth knowledge of blockchain technology and ability to explain complex concepts in simple terms. From initial consultation to the final implementation, [Your Company Name] was professional, efficient, and very detail-oriented.",
+      "As a financial services company, we required a blockchain solution to improve transparency and security for our clients. We approached ELIXIR AI with a complex set of requirements involving smart contracts, secure transaction tracking, and decentralized data storage. Their team impressed us with their in-depth knowledge of blockchain technology and ability to explain complex concepts in simple terms. From initial consultation to the final implementation, ELIXIR AI was professional, efficient, and very detail-oriented.",
   },
   {
     id: 3,
@@ -366,7 +366,7 @@ export const testimonials = [
     name: "Vikram Rao",
     title: "Operations Manager at FreshMart Retail Solutions",
     description:
-      "We wanted to leverage AI to enhance our retail analytics capabilities, but we had no idea where to start. [Your Company Name] provided a comprehensive solution that included everything from customer behavior analysis to predictive modeling. They created an AI-driven platform that analyzed real-time customer data and provided actionable insights on purchasing trends, inventory optimization, and personalized marketing strategies.",
+      "We wanted to leverage AI to enhance our retail analytics capabilities, but we had no idea where to start. ELIXIR AI provided a comprehensive solution that included everything from customer behavior analysis to predictive modeling. They created an AI-driven platform that analyzed real-time customer data and provided actionable insights on purchasing trends, inventory optimization, and personalized marketing strategies.",
   },
   {
     id: 4,
@@ -374,7 +374,7 @@ export const testimonials = [
     name: "Dr. Meera Nair",
     title: "Co-Founder of HealthNet Solutions",
     description:
-      "Since implementing their solution, we have seen a significant improvement in data security, with no incidents of breaches or unauthorized access. Our clients and patients feel more confident knowing that their data is protected with cutting-edge technology. [Your Company Name]'s attention to detail and ongoing support has been invaluable, making them our go-to partner for all things cybersecurity.",
+      "Since implementing their solution, we have seen a significant improvement in data security, with no incidents of breaches or unauthorized access. Our clients and patients feel more confident knowing that their data is protected with cutting-edge technology. ELIXIR AI's attention to detail and ongoing support has been invaluable, making them our go-to partner for all things cybersecurity.",
   },
   {
     id: 5,
@@ -382,7 +382,7 @@ export const testimonials = [
     name: "Anjali Deshmukh",
     title: "Sales Director at Elite Properties Pvt Ltd",
     description:
-      "We were looking for innovative ways to enhance our client experience in real estate sales. [Your Company Name] helped us develop an immersive VR platform that allows potential buyers to take virtual tours of our properties from anywhere in the world. The VR environment was meticulously designed, with detailed 3D renderings that gave buyers a realistic feel of our homes.",
+      "We were looking for innovative ways to enhance our client experience in real estate sales. ELIXIR AI helped us develop an immersive VR platform that allows potential buyers to take virtual tours of our properties from anywhere in the world. The VR environment was meticulously designed, with detailed 3D renderings that gave buyers a realistic feel of our homes.",
   },
   {
     id: 6,
@@ -390,7 +390,7 @@ export const testimonials = [
     name: "Ajay Patil",
     title: "CTO of TechServe Solutions",
     description:
-      "We needed a completely revamped website that could better reflect our growing enterprise software business. [Your Company Name] came in and completely redesigned our website from the ground up, implementing a responsive, mobile-friendly design with integrated CRM tools and a content management system. The website's new user interface is sleek, modern, and easy to navigate, providing our clients with a better experience.",
+      "We needed a completely revamped website that could better reflect our growing enterprise software business. ELIXIR AI came in and completely redesigned our website from the ground up, implementing a responsive, mobile-friendly design with integrated CRM tools and a content management system. The website's new user interface is sleek, modern, and easy to navigate, providing our clients with a better experience.",
   },
   {
     id: 7,
@@ -398,7 +398,7 @@ export const testimonials = [
     name: "Sunil Kapoor",
     title: "Operations Manager at SteelTech Manufacturing",
     description:
-      "Our manufacturing process was riddled with inefficiencies due to manual data entry and repetitive tasks. [Your Company Name]’s Robotic Process Automation (RPA) solution helped us automate critical processes, from order fulfillment to inventory management. The RPA bots they developed have been instrumental in cutting down human errors, reducing operational costs, and improving productivity.",
+      "Our manufacturing process was riddled with inefficiencies due to manual data entry and repetitive tasks. ELIXIR AI’s Robotic Process Automation (RPA) solution helped us automate critical processes, from order fulfillment to inventory management. The RPA bots they developed have been instrumental in cutting down human errors, reducing operational costs, and improving productivity.",
   },
 ];
 
@@ -424,7 +424,7 @@ export const clients = [
 export const faqItems = [
   {
     id: 1,
-    question: "How can I get in touch with [your-company-name].?",
+    question: "How can I get in touch with ELIXIR AI.?",
     answer: `You can reach out to us through the contact form on this page, or by emailing us directly at info@example.com. Alternatively, you can also call us at +91-8547203254 for immediate assistance.`,
   },
   {
@@ -434,8 +434,8 @@ export const faqItems = [
   },
   {
     id: 3,
-    question: "What types of services does [your-company-name]. offer?",
-    answer: `[your-company-name]. offers a wide range of services including:
+    question: "What types of services does ELIXIR AI. offer?",
+    answer: `ELIXIR AI. offers a wide range of services including:
       - Artificial Intelligence (AI)
       - Mobile App Development
       - Website Development
@@ -453,8 +453,7 @@ export const faqItems = [
   },
   {
     id: 4,
-    question:
-      "How do I schedule a consultation or meeting with [your-company-name].?",
+    question: "How do I schedule a consultation or meeting with ELIXIR AI.?",
     answer: `You can schedule a meeting by filling out the contact form on this page or by sending us an email at <strong>info@example.com</strong>. We’ll get back to you with available time slots.`,
   },
   {
@@ -474,13 +473,13 @@ export const faqItems = [
   },
   {
     id: 8,
-    question: "Where is [your-company-name]. located?",
-    answer: `[your-company-name]. operates remotely, and our team works from various locations around the world. We’re fully capable of supporting clients globally.`,
+    question: "Where is ELIXIR AI. located?",
+    answer: `ELIXIR AI. operates remotely, and our team works from various locations around the world. We’re fully capable of supporting clients globally.`,
   },
   {
     id: 9,
     question: "What industries do you specialize in?",
-    answer: `[your-company-name]. has worked with clients across multiple industries, including:
+    answer: `ELIXIR AI. has worked with clients across multiple industries, including:
       - Tech
       - Healthcare
       - Finance
@@ -490,19 +489,18 @@ export const faqItems = [
   },
   {
     id: 10,
-    question: "Can I work with [your-company-name]. from any country?",
-    answer: `Absolutely! [your-company-name]. works with clients globally. Thanks to our remote setup, we are able to serve businesses in different time zones and regions efficiently.`,
+    question: "Can I work with ELIXIR AI. from any country?",
+    answer: `Absolutely! ELIXIR AI. works with clients globally. Thanks to our remote setup, we are able to serve businesses in different time zones and regions efficiently.`,
   },
   {
     id: 11,
-    question:
-      "How do I track the progress of my project with [your-company-name].?",
+    question: "How do I track the progress of my project with ELIXIR AI.?",
     answer: `We provide regular project updates through email, meetings, or our project management platform. You will have access to track the status and milestones of your project.`,
   },
   {
     id: 12,
-    question: "What makes [your-company-name]. different from other companies?",
-    answer: `At [your-company-name]., we focus on delivering cutting-edge, custom solutions tailored to your business needs. Our approach combines deep industry expertise with a focus on innovation and customer satisfaction, ensuring we always exceed expectations.`,
+    question: "What makes ELIXIR AI. different from other companies?",
+    answer: `At ELIXIR AI., we focus on delivering cutting-edge, custom solutions tailored to your business needs. Our approach combines deep industry expertise with a focus on innovation and customer satisfaction, ensuring we always exceed expectations.`,
   },
 ];
 
