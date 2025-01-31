@@ -1,14 +1,14 @@
 import PageBanner from "../Components/PageBanner";
 import img1 from "../assets/images/aboutus-1.jpg";
-import img2 from "../assets/images/aboutus-2.png";
-import img3 from "../assets/images/aboutus-3.jpeg";
+// import img2 from "../assets/images/aboutus-2.png";
+// import img3 from "../assets/images/aboutus-3.jpeg";
 import sectionthreeimageone from "../assets/images/sectionthreeimageone.gif";
 import sectionthreeimagetwo from "../assets/images/sectionthreeimagetwo.jpeg";
 import sectionthreeimagethree from "../assets/images/sectionthreeimagethree.png";
 import FAQ from "../Components/FAQ";
 import Testimonials from "../Components/Testimonials";
 import ClientsLogoSlider from "../Components/ClientLogoSlider";
-import CompanyAchievements from "../Components/CompanyAchievements";
+// import CompanyAchievements from "../Components/CompanyAchievements";
 import TrustWorthySection from "../Components/TrustWorthySection";
 import OurApproach from "../Components/OurApproach";
 const AboutusPage = () => {

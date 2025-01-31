@@ -59,7 +59,7 @@ const OurApproach = () => {
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {approachSteps.map((step, index) => (
+          {approachSteps.map((step) => (
             <div
               key={step.id}
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
