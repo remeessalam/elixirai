@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+
+@layer utilities {
+  .wrapper {
+    @apply max-w-7xl mx-auto px-4;
+  }
+  .active-link {
+    @apply text-primary font-semibold;
+  }
+  .primary-btn {
+    @apply bg-gradient-to-r text-base cursor-pointer font-medium from-primary/50 to-primary min-w-[9rem] flex justify-center text-center px-5 py-3 text-white rounded-full transition-all duration-300 hover:-translate-y-1;
+  }
+  .secondary-btn {
+    @apply bg-[#5C5E60] text-base cursor-pointer font-medium min-w-[9rem] flex justify-center text-center px-5 py-3 text-white rounded-full transition-all duration-300 hover:-translate-y-1;
+  }
+  .blurred-red-circle {
+    @apply bg-[#ee7cc245] rounded-full blur-3xl absolute;
+  }
+  .heading {
+    @apply text-[2rem] md:text-5xl leading-tight font-semibold;
+  }
+  .description {
+    @apply text-base font-light leading-relaxed;
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 3px solid;
+  border-color: #fff #fff transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+.loader::after {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid;
+  border-color: transparent #0458f5 #3a6dcdba;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
