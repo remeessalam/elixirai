@@ -15,11 +15,11 @@ const ServicesList = () => {
       <h1 className="heading text-center mb-8 text-white">
         Explore Our Offering
       </h1>
-      <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-primary/25 rounded-lg">
+      <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-primary rounded-lg">
         <div className="w-full flex flex-col gap-10">
           <div
             data-aos="fade-up"
-            className="bg-[#ECF8FF] p-4 lg:p-6 rounded-lg"
+            className="bg-white shadow-inner shadow-primary p-4 lg:p-6 rounded-lg"
           >
             <h4 className="text-2xl font-medium">Our Services</h4>
             <div className="mt-5 flex flex-wrap md:flex-col gap-3">
@@ -48,7 +48,7 @@ const ServicesList = () => {
               data-aos="fade-up"
               className="mt-4 description whitespace-pre-line"
             >
-              {selectedService.smallPara}
+              {selectedService.description}
             </p>
             <Link
               data-aos="fade-up"

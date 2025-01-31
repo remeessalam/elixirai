@@ -1,14 +1,14 @@
-import healthcareImg from "./assets/industries/Healthcare.jpg";
-import ecommerceImg from "./assets/industries/E-commerce & Retail.jpg";
-import financeImg from "./assets/industries/Finance & Banking.jpg";
-import energyImg from "./assets/industries/Energy.jpg";
-import realEstateImg from "./assets/industries/Real Estate.jpg";
-import manufacturingImg from "./assets/industries/Manufacturing.jpg";
-import dataAnalyticsImg from "./assets/industries/Data Analytics & Business Intelligence.jpg";
-import iotDevelopmentImg from "./assets/industries/IoT Development.jpg";
-import logisticsImg from "./assets/industries/Logistics & Supply Chain.jpg";
-import educationImg from "./assets/industries/Education.jpg";
-import telecomImg from "./assets/industries/Telecom.jpg";
+import HealthcareImg from "./assets/industries/Healthcare.webp";
+import RetailImg from "./assets/industries/E-commerce & Retail.webp";
+import FintechImg from "./assets/industries/Fintech.webp";
+import InsuranceImg from "./assets/industries/Insurance.webp";
+import HospitalityImg from "./assets/industries/Hospitality.webp";
+import ManufacturingImg from "./assets/industries/Manufacturing.webp";
+import OnDemandImg from "./assets/industries/On Demand.webp";
+import FoodRestaurantImg from "./assets/industries/Food & Restaurant.webp";
+import LogisticsImg from "./assets/industries/Logistics & Supply Chain.webp";
+import EducationImg from "./assets/industries/Education.webp";
+import GameImg from "./assets/industries/Game.webp";
 import webDevIcon from "./assets/images/slider-item-webdev-icon.png";
 import appDevIcon from "./assets/images/slider-item-appdev-icon.png";
 import aiIcon from "./assets/images/slider-item-ai-icon.png";
@@ -22,16 +22,31 @@ import client3 from "./assets/client-3.png";
 import client4 from "./assets/client-4.png";
 
 import service1 from "./assets/service1.png";
-// import service2 from "./assets/service2.png";
 import service3 from "./assets/service3.png";
-import service4 from "./assets/service4.png";
-import service5 from "./assets/service5.png";
 import service6 from "./assets/service6.png";
-import service7 from "./assets/service7.png";
-import service8 from "./assets/service8.png";
-import service9 from "./assets/service9.png";
-import service10 from "./assets/service10.png";
-import service11 from "./assets/service11.png";
+
+// porfolio image
+// Import all images at the top (Web Development)
+import FiveGHomesImg from "./assets/web-development-portfolio/5ghomes.png";
+import BayutImg from "./assets/web-development-portfolio/bayut.png";
+import ColdCreekcapImg from "./assets/web-development-portfolio/cold creekcap.png";
+import EmergencyMusicImg from "./assets/web-development-portfolio/emergency music .png";
+import FlatiornImg from "./assets/web-development-portfolio/flatiorn.png";
+import MavenImg from "./assets/web-development-portfolio/maven.png";
+import MenissaCateringsImg from "./assets/web-development-portfolio/menissa caterings.png";
+import MethodistImg from "./assets/web-development-portfolio/methodist.png";
+import ThinkRealityImg from "./assets/web-development-portfolio/think reality.png";
+
+// Import all images at the top (App Development)
+import DubaiTravelGuideImg from "./assets/app-development-portfolio/dubai travel guide.png";
+import EloraHairPalourImg from "./assets/app-development-portfolio/elora hair palour.png";
+import EvansFrancisImg from "./assets/app-development-portfolio/evans francis.png";
+import HouseOfDeliverenceImg from "./assets/app-development-portfolio/house of deliverence.png";
+import MybitsShopImg from "./assets/app-development-portfolio/mybitsshop.png";
+import NamazImg from "./assets/app-development-portfolio/namaz.png";
+import PoteaImg from "./assets/app-development-portfolio/potea.png";
+import RentopBikeAndCarImg from "./assets/app-development-portfolio/rentop bike and car.png";
+
 export const clientDetails = {
   phone: "+91-9000000",
   whatsappbox: "90000000",
@@ -43,7 +58,7 @@ export const navItems = [
   {
     label: "[ LET'S TALK AI ]",
     // path: "",
-    extraClasses: "text-white hover:text-blue-400",
+    extraClasses: "text-black hover:text-blue-400",
   },
   { label: "HOME", path: "/", extraClasses: "hover:text-blue-400" },
   { label: "ABOUT", path: "/about-us", extraClasses: "hover:text-blue-400" },
@@ -52,6 +67,11 @@ export const navItems = [
   {
     label: "INDUSTRIES",
     path: "/industries",
+    extraClasses: "hover:text-blue-400",
+  },
+  {
+    label: "PORTFOLIO",
+    path: "/portfolio",
     extraClasses: "hover:text-blue-400",
   },
   {
@@ -73,106 +93,143 @@ export const allServices = [
   {
     id: 1,
     img: service1,
-    title: "Web & App Development",
+    title: "Web Development",
+    link: "/services/web-development",
     description:
-      "In order to scale new customer acquisition and retention for commerce brands, we work across platforms to deliver seamless digital experiences.",
-    link: "/services/web-app-development",
-    smallPara:
-      "In today's interconnected world, web and mobile applications have become an integral part of our daily lives, transforming the way we communicate, consume information, and conduct business. From e-commerce platforms to mobile apps, these digital tools are essential for driving user engagement and meeting business goals.\n\n" +
-      "Web application development involves crafting responsive and visually appealing interfaces (front-end) while ensuring robust and scalable server-side functionalities (back-end). Similarly, mobile app development requires platform-specific expertise, creating unique experiences for iOS and Android users while adhering to the technical demands of each platform. Together, web and app development form the backbone of modern digital ecosystems, offering tailored solutions to meet user needs and deliver impactful results.\n\n" +
-      "AppGalaxy, a subsidiary of [your-company-name], focuses on delivering premium website and app development services. With a commitment to excellence, AppGalaxy ensures that every digital solution is designed to provide seamless user experiences and drive business growth.",
+      "Your website is often the first impression you make on potential customers. It needs to be engaging, functional, and user-friendly. At [Your Company Name], we build custom websites that are crafted to meet the unique needs of your business. Whether you need a dynamic corporate site, an eCommerce platform, or a simple landing page, we ensure your website provides a seamless user experience, no matter the device.",
+    services: [
+      {
+        heading: "Custom Web Development",
+        description:
+          "We specialize in building unique, tailor-made websites that reflect your brand identity and meet your business objectives.",
+      },
+      {
+        heading: "Mobile-Responsive Design",
+        description:
+          "We ensure your website adapts beautifully across all devices, ensuring users have a consistent and optimized experience whether they’re on mobile, tablet, or desktop.",
+      },
+      {
+        heading: "E-Commerce Development",
+        description:
+          "If you want to take your business online, we offer powerful e-commerce solutions designed to handle high traffic, provide secure payment options, and enhance the shopping experience.",
+      },
+      {
+        heading: "Content Management Systems (CMS)",
+        description:
+          "We empower you to take control of your content with an easy-to-use CMS, giving you the flexibility to update and manage your site independently.",
+      },
+      {
+        heading: "Search Engine Optimization (SEO)",
+        description:
+          "Our websites are built with SEO in mind, improving your visibility on search engines and helping you reach more customers.",
+      },
+    ],
   },
-
   {
     id: 2,
-    img: service3,
-    title: "Artificial Intelligence",
+    img: service1,
+    title: "App Development",
+    link: "/services/app-development",
     description:
-      "In order to scale new customer acquisition and retention commerce brands, we work across",
-    link: "/services/artificial-intelligence",
-    smallPara:
-      "Artificial Intelligence (AI) has rapidly evolved from a concept in science fiction to a transformative force reshaping industries and societies. AI development, the process of creating intelligent systems capable of learning, reasoning, and problem-solving, is driving innovation and revolutionizing the way we live and work.\n\nAt the heart of AI development is the creation of algorithms and models that enable machines to learn from data and improve their performance over time. Machine learning, a subset of AI, involves training algorithms on large datasets to recognize patterns, make predictions, and automate tasks. Deep learning, a more advanced form of machine learning, utilizes artificial neural networks to process complex data and learn from it.",
+      "In today’s mobile-first world, a strong app can help you connect with your audience and enhance your business offerings. Our team specializes in building high-quality mobile applications that are both functional and visually appealing. We focus on developing apps that provide seamless user experiences, whether you need a native app for iOS or Android, or a cross-platform solution.",
+    services: [
+      {
+        heading: "iOS & Android Development",
+        description:
+          "Whether you’re building for iPhone, iPad, or Android devices, we create custom applications that deliver exceptional user experiences across platforms.",
+      },
+      {
+        heading: "Cross-Platform Development",
+        description:
+          "We offer cross-platform solutions using frameworks like Flutter and React Native, providing high-quality apps for both iOS and Android while keeping development costs efficient.",
+      },
+      {
+        heading: "UI/UX Design for Apps",
+        description:
+          "From the initial concept to the final design, our team creates intuitive interfaces that are easy to navigate and offer a smooth experience for your users.",
+      },
+      {
+        heading: "App Maintenance & Updates",
+        description:
+          "We don’t just launch your app—we also offer ongoing maintenance and updates to keep your app running smoothly and up-to-date with the latest features.",
+      },
+      {
+        heading: "Custom App Solutions",
+        description:
+          "If you have specific requirements, we’ll build a custom app that fits your unique business needs, integrating with other platforms and services as needed.",
+      },
+    ],
   },
   {
     id: 3,
-    img: service4,
-    title: "Blockchain",
+    img: service3,
+    title: "AI Development",
+    link: "/services/artificial-intelligence",
     description:
-      "In order to scale new customer acquisition and retention commerce brands, we work across",
-    link: "/services/blockchain",
-    smallPara:
-      "Blockchain technology, a decentralized and distributed ledger system, has emerged as a disruptive force with the potential to transform industries across the globe. Blockchain development involves creating and implementing applications that leverage the unique features of blockchain technology to enhance security, efficiency, and transparency.\n\n At the core of blockchain is a distributed network of nodes that maintain a shared ledger of transactions. Each transaction is recorded as a block and added to the chain, creating an immutable and tamper-proof record. This decentralized nature eliminates the need for intermediaries, such as banks or clearinghouses, fostering trust and reducing the risk of fraud.",
+      "Artificial Intelligence has the power to revolutionize the way businesses operate. We help organizations harness the power of AI to streamline processes, gain deeper insights, and improve decision-making. Our team leverages the latest AI technologies, from machine learning to natural language processing, to create intelligent solutions that deliver real business value.",
+    services: [
+      {
+        heading: "Machine Learning Solutions",
+        description:
+          "We create intelligent systems that learn from your data, improving decision-making, automating processes, and enhancing your operations over time.",
+      },
+      {
+        heading: "Natural Language Processing (NLP)",
+        description:
+          "We develop AI solutions that enable your systems to understand, interpret, and respond to human language, from chatbots to automated customer service.",
+      },
+      {
+        heading: "Predictive Analytics",
+        description:
+          "By analyzing historical data, we build predictive models that help you anticipate trends, identify patterns, and make data-driven decisions.",
+      },
+      {
+        heading: "AI Automation",
+        description:
+          "We design AI solutions that automate repetitive tasks, freeing up your team to focus on more strategic initiatives and improving efficiency across the board.",
+      },
+      {
+        heading: "Custom AI Integrations",
+        description:
+          "We help integrate AI into your existing systems to enhance performance, improve user experiences, and drive business growth.",
+      },
+    ],
   },
   {
     id: 4,
-    img: service5,
-    title: "Robotic Process Automation (RPA)",
-    description:
-      "In order to scale new customer acquisition and retention commerce brands, we work across",
-    link: "/services/rpa",
-    smallPara:
-      "Robotic Process Automation (RPA) is a technology that uses software robots to automate repetitive, rule-based tasks. These software robots can mimic human actions, interacting with applications and systems to perform tasks that were previously done manually. RPA has emerged as a powerful tool for businesses looking to improve efficiency, reduce costs, and enhance accuracy.\n\n One of the key benefits of RPA is its ability to automate repetitive tasks that are prone to human error. By eliminating manual intervention, RPA can significantly reduce the risk of mistakes and ensure consistency in processes. This can lead to improved quality and compliance, as well as reduced operational costs.",
-  },
-  {
-    id: 5,
     img: service6,
-    title: "AR & VR",
+    title: "UI/UX Design",
+    link: "/services/uiux-design",
+
     description:
-      "In order to scale new customer acquisition and retention commerce brands, we work across",
-    link: "/services/ar-vr",
-    smallPara:
-      "Augmented Reality (AR) and Virtual Reality (VR) are immersive technologies that are rapidly transforming the way we interact with the digital world. AR overlays digital information onto the real world, enhancing our perception of reality, while VR creates entirely simulated environments that transport us to different places and experiences.\n\n AR and VR have a wide range of applications across various industries. In gaming, they offer immersive experiences that blur the lines between the real and virtual worlds. In education, they can provide interactive and engaging learning experiences. In healthcare, they are used for training, surgery simulations, and rehabilitation. In architecture and design, they allow for virtual walkthroughs of buildings and spaces before construction.",
-  },
-  {
-    id: 6,
-    img: service7,
-    title: "Game Development",
-    description:
-      "Creating immersive and engaging experiences through innovative game development solutions.",
-    link: "/services/game-development",
-    smallPara:
-      "Game Development is an exciting and dynamic field that combines creativity, storytelling, and cutting-edge technology to create interactive experiences. From casual mobile games to expansive multiplayer universes, game development encompasses a wide range of platforms and genres, catering to diverse audiences worldwide.\n\n" +
-      "The process of game development involves multiple stages, including concept design, programming, asset creation, and testing. Developers use powerful game engines like Unity and Unreal Engine to build visually stunning and performance-optimized games. With the integration of AI, augmented reality (AR), and virtual reality (VR), modern games are becoming more immersive and adaptive, providing players with unique and personalized experiences. Game development continues to push the boundaries of entertainment, merging technology and artistry to captivate players globally.",
-  },
-  {
-    id: 7,
-    img: service8,
-    title: "IoT Development",
-    description:
-      "Empowering businesses with connected solutions to revolutionize operations and user experiences.",
-    link: "/services/iot-development",
-    smallPara:
-      "Internet of Things (IoT) development is at the forefront of digital transformation, enabling businesses to connect devices, systems, and people seamlessly. IoT applications range from smart home devices to industrial automation, providing real-time data insights and control over physical and digital systems.\n\n IoT development involves the integration of sensors, connectivity, and analytics platforms to build systems that enhance efficiency, improve decision-making, and create new revenue opportunities. By leveraging IoT technology, businesses can innovate and thrive in a connected world.",
-  },
-  {
-    id: 8,
-    img: service9,
-    title: "Data Analytics",
-    description:
-      "Transforming data into actionable insights to drive strategic decisions.",
-    link: "/services/data-analytics",
-    smallPara:
-      "Data Analytics is a powerful tool for extracting meaningful insights from raw data. Through techniques like descriptive, predictive, and prescriptive analytics, businesses can understand trends, anticipate outcomes, and optimize strategies.\n\n Data analytics development involves leveraging tools like machine learning, data visualization, and big data processing to uncover hidden patterns and opportunities. By making data-driven decisions, organizations can improve efficiency, enhance customer experiences, and achieve their goals with greater precision.",
-  },
-  {
-    id: 9,
-    img: service10,
-    title: "Cloud Solutions",
-    description:
-      "Providing scalable, secure, and cost-effective cloud solutions for modern businesses.",
-    link: "/services/cloud-solutions",
-    smallPara:
-      "Cloud solutions enable businesses to store, manage, and process data on scalable, on-demand infrastructures. By adopting cloud computing, organizations can reduce IT costs, enhance flexibility, and improve collaboration.\n\n Cloud solutions development focuses on designing and deploying services such as Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), and Software-as-a-Service (SaaS). These solutions ensure reliability, security, and accessibility, empowering businesses to innovate without limitations.",
-  },
-  {
-    id: 10,
-    img: service11,
-    title: "Cybersecurity",
-    description:
-      "Safeguarding digital assets and ensuring data integrity against evolving cyber threats.",
-    link: "/services/cybersecurity",
-    smallPara:
-      "Cybersecurity is an essential practice to protect sensitive information, systems, and networks from cyberattacks. With the increasing complexity of threats, cybersecurity development involves creating robust defense mechanisms, intrusion detection systems, and encryption protocols.\n\n By implementing comprehensive security measures, businesses can ensure data privacy, comply with regulations, and maintain trust with customers and stakeholders. Cybersecurity solutions are vital for safeguarding against financial losses and reputational damage in an ever-evolving digital landscape.",
+      "Creating a great digital experience goes beyond just having a functional website or app. It’s about designing interfaces that are easy to use, visually appealing, and intuitive. Our UI/UX design team specializes in crafting user-centric designs that not only look great but also provide seamless interactions. We ensure every touchpoint is carefully designed to enhance user satisfaction and engagement.",
+    services: [
+      {
+        heading: "User Research & Insights",
+        description:
+          "We begin with in-depth research to understand your target audience, their needs, behaviors, and challenges, ensuring that the design aligns with their expectations.",
+      },
+      {
+        heading: "Wireframing & Prototyping",
+        description:
+          "We create wireframes and interactive prototypes to help visualize your product’s structure and flow before development begins, giving you a clear picture of the user journey.",
+      },
+      {
+        heading: "UI Design",
+        description:
+          "Our team focuses on designing user interfaces that are not only visually stunning but also intuitive, making it easy for your users to interact with your product.",
+      },
+      {
+        heading: "UX Strategy & Testing",
+        description:
+          "We continuously test and refine our designs through usability testing, ensuring your product delivers an exceptional experience at every touchpoint.",
+      },
+      {
+        heading: "Branding & Design Systems",
+        description:
+          "We create consistent design systems and user interface guidelines that align with your brand identity, ensuring a cohesive and recognizable experience across all platforms.",
+      },
+    ],
   },
 ];
 
@@ -180,68 +237,68 @@ export const industriesCompanyServe = [
   {
     id: 1,
     title: "Healthcare",
-    img: healthcareImg,
+    img: HealthcareImg,
     desc: "Transforming patient care and operations with AI-powered diagnostics, data analytics, and telemedicine solutions.",
   },
   {
     id: 2,
-    title: "E-commerce & Retail",
-    img: ecommerceImg,
+    title: "Retail",
+    img: RetailImg,
     desc: "Enhancing customer experiences with personalized recommendations, inventory management, and secure online transactions.",
   },
   {
     id: 3,
-    title: "Finance & Banking",
-    img: financeImg,
-    desc: "Streamlining processes with AI, blockchain, and machine learning for fraud detection, risk assessment, and smarter investment strategies.",
+    title: "Fintech",
+    img: FintechImg,
+    desc: "Streamlining financial services with AI-driven fraud detection, automated customer support, and predictive analytics.",
   },
   {
     id: 4,
-    title: "Energy",
-    img: energyImg,
-    desc: "Optimizing energy management, forecasting, and sustainability with IoT and data-driven AI solutions.",
+    title: "Insurance",
+    img: InsuranceImg,
+    desc: "Improving risk assessment, claims processing, and customer engagement through advanced analytics and AI solutions.",
   },
   {
     id: 5,
-    title: "Real Estate",
-    img: realEstateImg,
-    desc: "Revolutionizing property management, investment decisions, and customer engagement with AI and predictive analytics.",
+    title: "Hospitality",
+    img: HospitalityImg,
+    desc: "Enhancing guest experiences with smart booking systems, personalized services, and efficient resource management.",
   },
   {
     id: 6,
     title: "Manufacturing",
-    img: manufacturingImg,
+    img: ManufacturingImg,
     desc: "Driving automation, predictive maintenance, and operational efficiency with AI, machine learning, and IoT technologies.",
   },
   {
     id: 7,
-    title: "Data Analytics & Business Intelligence",
-    img: dataAnalyticsImg,
-    desc: "Actionable insights from big data to drive informed decision-making and growth strategies.",
+    title: "On Demand",
+    img: OnDemandImg,
+    desc: "Empowering on-demand platforms with intelligent matchmaking, real-time tracking, and user-centric analytics.",
   },
   {
     id: 8,
-    title: "IoT Development",
-    img: iotDevelopmentImg,
-    desc: "Connecting devices and systems to enhance automation and operational efficiency.",
+    title: "Food & Restaurant",
+    img: FoodRestaurantImg,
+    desc: "Optimizing food services with smart inventory, personalized menus, and efficient order management solutions.",
   },
   {
     id: 9,
-    title: "Logistics & Supply Chain",
-    img: logisticsImg,
+    title: "Logistics",
+    img: LogisticsImg,
     desc: "Enhancing logistics, inventory, and supply chain management with AI and IoT-enabled tracking and optimization.",
   },
   {
     id: 10,
     title: "Education",
-    img: educationImg,
+    img: EducationImg,
     desc: "Personalized learning experiences, predictive analytics for student outcomes, and automated administrative processes using AI and ML.",
   },
   {
-    id: 11, // Adjusted the duplicate ID
-    title: "Telecom",
-    img: telecomImg,
-    desc: "Boosting network efficiency, customer service, and fraud prevention through AI-driven solutions.",
+    id: 11,
+    title: "Game",
+    img: GameImg,
+    desc: "Elevating game development with AI-enhanced graphics, player behavior analytics, and immersive experiences.",
   },
 ];
 
@@ -446,5 +503,97 @@ export const faqItems = [
     id: 12,
     question: "What makes [your-company-name]. different from other companies?",
     answer: `At [your-company-name]., we focus on delivering cutting-edge, custom solutions tailored to your business needs. Our approach combines deep industry expertise with a focus on innovation and customer satisfaction, ensuring we always exceed expectations.`,
+  },
+];
+
+export const webPortfolio = [
+  {
+    id: 1,
+    img: FiveGHomesImg,
+    title: "5g Homes",
+  },
+  {
+    id: 2,
+    img: BayutImg,
+    title: "Bayut",
+  },
+  {
+    id: 3,
+    img: ColdCreekcapImg,
+    title: "Cold Creekcap",
+  },
+  {
+    id: 4,
+    img: EmergencyMusicImg,
+    title: "Emergency Music",
+  },
+  {
+    id: 5,
+    img: FlatiornImg,
+    title: "Flatiorn",
+  },
+  {
+    id: 6,
+    img: MavenImg,
+    title: "Maven",
+  },
+  {
+    id: 7,
+    img: MenissaCateringsImg,
+    title: "Menissa Caterings",
+  },
+  {
+    id: 8,
+    img: MethodistImg,
+    title: "Methodist",
+  },
+  {
+    id: 9,
+    img: ThinkRealityImg,
+    title: "Think Reality",
+  },
+];
+
+// Portfolio images (App Development)
+export const appPortfolio = [
+  {
+    id: 1,
+    img: DubaiTravelGuideImg,
+    title: "Dubai Travel Guide",
+  },
+  {
+    id: 2,
+    img: EloraHairPalourImg,
+    title: "Elora Hair Palour",
+  },
+  {
+    id: 3,
+    img: EvansFrancisImg,
+    title: "Evans Francis",
+  },
+  {
+    id: 4,
+    img: HouseOfDeliverenceImg,
+    title: "House of Deliverence",
+  },
+  {
+    id: 5,
+    img: MybitsShopImg,
+    title: "Mybits Shop",
+  },
+  {
+    id: 6,
+    img: NamazImg,
+    title: "Namaz",
+  },
+  {
+    id: 7,
+    img: PoteaImg,
+    title: "Potea",
+  },
+  {
+    id: 8,
+    img: RentopBikeAndCarImg,
+    title: "Rentop Bike and Car",
   },
 ];

@@ -1,9 +1,36 @@
-import img1 from "../../assets/services-details/ai1.jpeg";
-import img2 from "../../assets/services-details/ai2.jpeg";
+import img1 from "../../assets/services-details/ai1.jpg";
+import img2 from "../../assets/services-details/ai2.jpg";
 
 const ArtificialIntelligence = () => {
+  const aiDevelopmentServices = [
+    {
+      title: "Machine Learning Solutions",
+      description:
+        "We create intelligent systems that learn from your data, improving decision-making, automating processes, and enhancing your operations over time.",
+    },
+    {
+      title: "Natural Language Processing (NLP)",
+      description:
+        "We develop AI solutions that enable your systems to understand, interpret, and respond to human language, from chatbots to automated customer service.",
+    },
+    {
+      title: "Predictive Analytics",
+      description:
+        "By analyzing historical data, we build predictive models that help you anticipate trends, identify patterns, and make data-driven decisions.",
+    },
+    {
+      title: "AI Automation",
+      description:
+        "We design AI solutions that automate repetitive tasks, freeing up your team to focus on more strategic initiatives and improving efficiency across the board.",
+    },
+    {
+      title: "Custom AI Integrations",
+      description:
+        "We help integrate AI into your existing systems to enhance performance, improve user experiences, and drive business growth.",
+    },
+  ];
   return (
-    <div className="flex flex-col gap-10 text-white">
+    <div className="flex flex-col gap-10 text-black">
       <img
         data-aos="fade-up"
         src={img1}
@@ -16,25 +43,17 @@ const ArtificialIntelligence = () => {
           Artificial Intelligence
         </h2>
         <p data-aos="fade-up" className="description">
-          Artificial Intelligence (AI) has rapidly evolved from a concept in
-          science fiction to a transformative force reshaping industries and
-          societies. AI development, the process of creating intelligent systems
-          capable of learning, reasoning, and problem-solving, is driving
-          innovation and revolutionizing the way we live and work.
-          <br />
-          <br />
-          At the heart of AI development is the creation of algorithms and
-          models that enable machines to learn from data and improve their
-          performance over time. Machine learning, a subset of AI, involves
-          training algorithms on large datasets to recognize patterns, make
-          predictions, and automate tasks. Deep learning, a more advanced form
-          of machine learning, utilizes artificial neural networks to process
-          complex data and learn from it.
+          Artificial Intelligence has the power to revolutionize the way
+          businesses operate. We help organizations harness the power of AI to
+          streamline processes, gain deeper insights, and improve
+          decision-making. Our team leverages the latest AI technologies, from
+          machine learning to natural language processing, to create intelligent
+          solutions that deliver real business value.
         </p>
       </div>
       <div className="mt-3 flex flex-col gap-4 md:px-5">
         <h2 data-aos="fade-up" className="text-3xl font-semibold">
-          What We Provide
+          Our AI Development Services
         </h2>
         <p data-aos="fade-up" className="description">
           From developing machine learning models to creating AI-powered
@@ -48,39 +67,20 @@ const ArtificialIntelligence = () => {
           src={img2}
           loading="lazy"
           className="h-[25rem] object-cover rounded-3xl object-center my-4"
-          alt="ai"
+          alt="ai development"
         />
         <p data-aos="fade-up" className="description">
-          AI development has a wide range of applications across various
-          domains. In healthcare, AI is being used to diagnose diseases, develop
-          new treatments, and personalize patient care. In finance, AI-powered
-          systems are used for fraud detection, risk assessment, and algorithmic
-          trading. In manufacturing, AI is driving automation, improving
-          efficiency, and enhancing product quality.
-          <br />
-          <br />
-          One of the most significant trends in AI development is the emergence
-          of natural language processing (NLP). NLP enables machines to
-          understand, interpret, and generate human language, leading to
-          advancements in chatbots, virtual assistants, and language
-          translation. Another exciting area of AI development is computer
-          vision, which allows machines to process and understand visual
-          information, enabling applications in image recognition, autonomous
-          vehicles, and augmented reality.
-          <br />
-          <br />
-          However, the development of AI also raises ethical concerns. Issues
-          such as bias, privacy, and job displacement must be carefully
-          considered. Ensuring that AI is developed and used responsibly is
-          crucial to harnessing its benefits while mitigating its potential
-          risks.
-          <br />
-          <br />
-          As AI continues to evolve, it is essential to invest in research and
-          development to push the boundaries of what is possible. By fostering
-          collaboration between academia, industry, and governments, we can
-          create a future where AI is used to benefit humanity and address
-          global challenges.
+          {aiDevelopmentServices.map((service, index) => (
+            <div key={index}>
+              <strong>{service.title}:</strong> {service.description}
+              {index !== aiDevelopmentServices.length - 1 && (
+                <>
+                  <br />
+                  <br />
+                </>
+              )}
+            </div>
+          ))}
         </p>
       </div>
     </div>

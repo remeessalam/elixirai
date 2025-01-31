@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
+  background-color: white;
+  color: black;
 }
 
 @layer utilities {
@@ -14,7 +15,7 @@ body {
     @apply text-primary font-semibold;
   }
   .primary-btn {
-    @apply bg-gradient-to-r text-base cursor-pointer font-medium from-primary/50 to-primary min-w-[9rem] flex justify-center text-center px-5 py-3 text-white rounded-full transition-all duration-300 hover:-translate-y-1;
+    @apply bg-gradient-to-r text-base cursor-pointer font-medium from-blue-700 to-primary min-w-[9rem] flex justify-center text-center px-5 py-3 text-white rounded-full transition-all duration-300 hover:-translate-y-1;
   }
   .secondary-btn {
     @apply bg-[#5C5E60] text-base cursor-pointer font-medium min-w-[9rem] flex justify-center text-center px-5 py-3 text-white rounded-full transition-all duration-300 hover:-translate-y-1;

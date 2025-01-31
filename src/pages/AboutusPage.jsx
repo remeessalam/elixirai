@@ -9,12 +9,13 @@ import FAQ from "../Components/FAQ";
 import Testimonials from "../Components/Testimonials";
 import ClientsLogoSlider from "../Components/ClientLogoSlider";
 import CompanyAchievements from "../Components/CompanyAchievements";
+import TrustWorthySection from "../Components/TrustWorthySection";
 const AboutusPage = () => {
   return (
     <div>
-      <PageBanner title={"About Us"} /> AboutusPage
+      <PageBanner title={"About Us"} />
       <section className="py-[5rem] wrapper grid gap-10 lg:grid-cols-2">
-        <div className="flex flex-col text-white">
+        <div className="flex flex-col text-black">
           <h1 data-aos="fade-right" className="heading">
             Innovating the Future with Advanced AI and Digital Solutions
           </h1>
@@ -44,7 +45,9 @@ const AboutusPage = () => {
           className="w-full rounded-lg h-[40vh] lg:h-full object-cover"
         />
       </section>
-      <CompanyAchievements />
+      {/* <CompanyAchievements /> */}
+      <TrustWorthySection />
+
       <div className="flex justify-center w-full">
         <div className="relative flex justify-center z-10 mt-[51px] px-4">
           <img

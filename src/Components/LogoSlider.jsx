@@ -50,7 +50,7 @@ const LogoSlider = () => {
         ref={sliderRef}
         className="relative flex  h-fit  my-[5rem]  keen-slider bg-white"
       >
-        <div className="absolute top-0 left-0 w-28 h-full bg-gradient-to-r from-[#080719] to-transparent pointer-events-none z-10"></div>
+        <div className="absolute top-0 left-0 w-28 h-full bg-gradient-to-r from-[#ffffff] to-transparent pointer-events-none z-10"></div>
 
         {[...Array(10)].map((_, idx) => (
           <div
@@ -59,11 +59,11 @@ const LogoSlider = () => {
             // style={{ maxWidth: "100px !important" }}
           >
             <Link to="#" className="text-white text-2xl font-bold">
-              <img src={logo} alt="logo" className="h-[4rem]  sm:h-[4rem]" />
+              <img src={logo} alt="logo" className="w-[10rem] sm:w-[13rem]" />
             </Link>
           </div>
         ))}
-        <div className="absolute top-0 right-0 w-28 h-full bg-gradient-to-l from-[#080719] to-transparent pointer-events-none z-10"></div>
+        <div className="absolute top-0 right-0 w-28 h-full bg-gradient-to-l from-[#ffffff] to-transparent pointer-events-none z-10"></div>
       </div>
     </div>
   );

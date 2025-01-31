@@ -23,7 +23,7 @@ const ServicePageLayout = () => {
           <div className="w-full flex flex-col gap-10">
             <div
               data-aos="fade-up"
-              className="bg-[#ECF8FF] p-4 lg:p-6 rounded-lg"
+              className="bg-white shadow-2xl p-4 lg:p-6 rounded-lg"
             >
               <h4 className="text-2xl font-medium">All Services</h4>
               <div className="mt-5 flex flex-wrap md:flex-col gap-3">
@@ -44,7 +44,7 @@ const ServicePageLayout = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="text-center bg-gradient-to-b hidden md:flex flex-col items-center gap-3 text-white from-[#635AD9] to-[#618cefb1] px-4 lg:px-6 py-10 rounded-lg"
+              className="text-center bg-gradient-to-b hidden md:flex flex-col items-center gap-3 text-white from-blue-500 to-primary shadow-inner shadow-white px-4 lg:px-6 py-10 rounded-lg"
             >
               <div className="w-[3.5rem] h-[3.5rem] bg-white text-primary rounded-full p-3 flex justify-center items-center">
                 <FaPhoneAlt className="text-3xl" />
@@ -56,7 +56,7 @@ const ServicePageLayout = () => {
             </div>
             <div
               data-aos="fade-up"
-              className="text-center bg-[#ECF8FF] hidden md:flex flex-col items-start gap-3 px-4 lg:px-6 py-10 rounded-lg"
+              className="text-center bg-blue-300 hidden md:flex flex-col items-start gap-3 px-4 lg:px-6 py-10 rounded-lg"
             >
               <h4 className="text-xl font-semibold">Working Days</h4>
               <div className="flex flex-col gap-3 w-full">
@@ -70,7 +70,7 @@ const ServicePageLayout = () => {
                 </Link>
                 <Link
                   to="/contact-us"
-                  className="purple-btn flex justify-center items-center gap-2 rounded-md"
+                  className="purple-btn bg-blue-600 py-3 text-white flex justify-center items-center gap-2 rounded-md"
                 >
                   Appointment Now{" "}
                   <IoIosArrowRoundForward className="text-3xl" />
