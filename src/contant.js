@@ -424,86 +424,106 @@ export const clients = [
 export const faqItems = [
   {
     id: 1,
-    question: "How can I get in touch with ELIXIR AI.?",
-    answer: `You can reach out to us through the contact form on this page, or by emailing us directly at info@example.com. Alternatively, you can also call us at +91-8547203254 for immediate assistance.`,
+    question: "What services do you offer for Web Development?",
+    answer: `We specialize in creating responsive, user-friendly, and high-performance websites. Our web development services include:
+      - Custom Website Development
+      - E-commerce Solutions
+      - Content Management Systems (CMS)
+      - Website Maintenance and Support
+      - API Integration
+    Whether you need a simple landing page or a complex web application, we’ve got you covered.`,
   },
   {
     id: 2,
-    question: "How long will it take for someone to respond to my inquiry?",
-    answer: `We aim to respond to all inquiries within 24–48 hours on business days. If you need urgent assistance, please indicate so in your message, and we’ll prioritize your request.`,
+    question: "Can you develop mobile apps for both iOS and Android?",
+    answer: `Yes, we develop mobile apps for both iOS and Android platforms. Our mobile app development services include:
+      - Native App Development
+      - Cross-Platform App Development
+      - App UI/UX Design
+      - App Testing and Deployment
+      - App Maintenance and Updates
+    We ensure your app is scalable, secure, and delivers a seamless user experience.`,
   },
   {
     id: 3,
-    question: "What types of services does ELIXIR AI. offer?",
-    answer: `ELIXIR AI. offers a wide range of services including:
-      - Artificial Intelligence (AI)
-      - Mobile App Development
-      - Website Development
-      - UI/UX Design
-      - Custom Software Development
-      - Data Analytics
-      - Internet of Things (IoT)
-      - Robotic Process Automation (RPA)
-      - Augmented Reality (AR) & Virtual Reality (VR)
-      - Game Development
-      - Blockchain Solutions
-      - Cloud Services
-      - Cybersecurity
-    For more detailed information, please visit our Services page.`,
+    question:
+      "What are AI-Driven Solutions, and how can they benefit my business?",
+    answer: `AI-Driven Solutions leverage artificial intelligence to automate processes, analyze data, and improve decision-making. Our AI services include:
+      - Predictive Analytics
+      - Natural Language Processing (NLP)
+      - Machine Learning Models
+      - AI-Powered Chatbots
+      - Computer Vision
+    These solutions can help you optimize operations, reduce costs, and enhance customer experiences.`,
   },
   {
     id: 4,
-    question: "How do I schedule a consultation or meeting with ELIXIR AI.?",
-    answer: `You can schedule a meeting by filling out the contact form on this page or by sending us an email at <strong>info@example.com</strong>. We’ll get back to you with available time slots.`,
+    question: "What does your UI/UX design process look like?",
+    answer: `Our UI/UX design process focuses on creating intuitive and visually appealing interfaces. Here’s how we do it:
+      - Research and Analysis
+      - Wireframing and Prototyping
+      - User Testing and Feedback
+      - High-Fidelity Design
+      - Iterative Improvements
+    We ensure the final design aligns with your brand and provides an exceptional user experience.`,
   },
   {
     id: 5,
-    question: "Do you offer support for ongoing projects?",
-    answer: `Yes, we provide support for all ongoing projects. Whether you need help with updates, maintenance, or troubleshooting, our team is ready to assist you.`,
+    question: "How long does it take to develop a website or mobile app?",
+    answer: `The timeline depends on the complexity of the project. Typically:
+      - Simple Website: 2–4 weeks
+      - Complex Website: 6–12 weeks
+      - Mobile App: 8–16 weeks
+    We provide a detailed project timeline after understanding your requirements.`,
   },
   {
     id: 6,
-    question: "Can I request a quote for a specific service?",
-    answer: `Yes, we provide custom quotes based on your requirements. Please fill out the contact form with details about the service you need, and we’ll send you an estimate as soon as possible.`,
+    question: "Do you offer ongoing support for websites and apps?",
+    answer: `Yes, we provide ongoing support for all our projects. This includes:
+      - Regular Updates
+      - Bug Fixes
+      - Performance Optimization
+      - Security Patches
+    Our goal is to ensure your website or app remains functional and up-to-date.`,
   },
   {
     id: 7,
-    question: "Do you offer free consultations?",
-    answer: `Yes, we offer a free initial consultation to better understand your needs and discuss potential solutions. Reach out to schedule your consultation!`,
+    question: "Can you redesign an existing website or app?",
+    answer: `Absolutely! We specialize in redesigning websites and apps to improve functionality, aesthetics, and user experience. Whether it’s a minor update or a complete overhaul, we can help.`,
   },
   {
     id: 8,
-    question: "Where is ELIXIR AI. located?",
-    answer: `ELIXIR AI. operates remotely, and our team works from various locations around the world. We’re fully capable of supporting clients globally.`,
+    question: "What technologies do you use for Web Development?",
+    answer: `We use a wide range of technologies, including:
+      - Frontend: HTML, CSS, JavaScript, React, Angular, Vue.js
+      - Backend: Node.js, Python, PHP, Ruby on Rails
+      - Databases: MySQL, MongoDB, PostgreSQL
+      - CMS: WordPress, Shopify, Drupal
+    We choose the best tools based on your project requirements.`,
   },
   {
     id: 9,
-    question: "What industries do you specialize in?",
-    answer: `ELIXIR AI. has worked with clients across multiple industries, including:
-      - Tech
-      - Healthcare
-      - Finance
-      - Retail
-      - Entertainment
-    We tailor our solutions to fit the unique needs of each industry.`,
+    question: "How do you ensure the quality of your mobile apps?",
+    answer: `We follow a rigorous quality assurance process, including:
+      - Functional Testing
+      - Performance Testing
+      - Usability Testing
+      - Security Testing
+      - Beta Testing with Real Users
+    This ensures your app is bug-free and delivers a smooth user experience.`,
   },
   {
     id: 10,
-    question: "Can I work with ELIXIR AI. from any country?",
-    answer: `Absolutely! ELIXIR AI. works with clients globally. Thanks to our remote setup, we are able to serve businesses in different time zones and regions efficiently.`,
-  },
-  {
-    id: 11,
-    question: "How do I track the progress of my project with ELIXIR AI.?",
-    answer: `We provide regular project updates through email, meetings, or our project management platform. You will have access to track the status and milestones of your project.`,
-  },
-  {
-    id: 12,
-    question: "What makes ELIXIR AI. different from other companies?",
-    answer: `At ELIXIR AI., we focus on delivering cutting-edge, custom solutions tailored to your business needs. Our approach combines deep industry expertise with a focus on innovation and customer satisfaction, ensuring we always exceed expectations.`,
+    question: "What industries do you serve for Web and Mobile Development?",
+    answer: `We’ve worked with clients across various industries, including:
+      - E-commerce
+      - Healthcare
+      - Education
+      - Finance
+      - Entertainment
+    Our solutions are tailored to meet the unique needs of each industry.`,
   },
 ];
-
 export const webPortfolio = [
   {
     id: 1,

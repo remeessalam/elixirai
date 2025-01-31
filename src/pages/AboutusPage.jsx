@@ -10,6 +10,7 @@ import Testimonials from "../Components/Testimonials";
 import ClientsLogoSlider from "../Components/ClientLogoSlider";
 import CompanyAchievements from "../Components/CompanyAchievements";
 import TrustWorthySection from "../Components/TrustWorthySection";
+import OurApproach from "../Components/OurApproach";
 const AboutusPage = () => {
   return (
     <div>
@@ -20,21 +21,19 @@ const AboutusPage = () => {
             Innovating the Future with Advanced AI and Digital Solutions
           </h1>
           <p data-aos="fade-right" className="description mt-4">
-            At ELIXIR AI, we are dedicated to pushing the limits of
-            technological innovation with our advanced AI and digital solutions.
-            As leaders in artificial intelligence, blockchain, AR/VR, game
-            development, and IoT, we leverage our expertise to transform your
-            visionary ideas into groundbreaking realities.
+            At ELIXIR AI, we are a team of passionate professionals dedicated to
+            delivering innovative digital solutions that help businesses grow
+            and succeed in an increasingly digital world. Founded with the goal
+            of bridging the gap between great ideas and effective technology, we
+            specialize in creating custom web development, mobile apps,
+            AI-driven solutions, and thoughtful UI/UX design. We believe in the
+            power of technology to shape the future of business, and we’re here
+            to help you make the most of it.
             <br />
-            <br /> We understand that every business is unique, which is why our
-            approach is tailored to your specific needs and challenges,
-            delivering customized solutions that drive impactful, measurable
-            results. Our subsidiary, Appgalaxy, specializes in delivering
-            cutting-edge website and app development services. Together, as a
-            cohesive unit, ELIXIR AI and Appgalaxy provide a comprehensive suite
-            of services designed to propel your business to new heights. Trust
-            in our commitment to quality, excellence, and innovation—experience
-            the future with ELIXIR AI
+            <br /> We understand that every project is unique, and that’s why we
+            approach each one with care, creativity, and technical expertise.
+            Our goal is simple: to build digital products that not only solve
+            problems but also leave a lasting, positive impact on your business.
           </p>
         </div>
         <img
@@ -68,6 +67,7 @@ const AboutusPage = () => {
           />
         </div>
       </div>
+      <OurApproach />
       <FAQ />
       <Testimonials />
       <ClientsLogoSlider />
