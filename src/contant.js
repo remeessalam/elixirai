@@ -48,10 +48,10 @@ import PoteaImg from "./assets/app-development-portfolio/potea.png";
 import RentopBikeAndCarImg from "./assets/app-development-portfolio/rentop bike and car.png";
 
 export const clientDetails = {
-  phone: "+91-9000000",
-  whatsappbox: "90000000",
+  phone: "+91-8591331353",
+  whatsappbox: "8591331353",
   email: "example@gmail.com",
-  address: "[your-address]",
+  address: "Malad West, Mumbai, Maharashtra – 400095, India",
 };
 
 export const navItems = [
