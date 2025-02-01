@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
-    <div className="flex flex-col wrapper bg-primary/15 gap-4 items-center pt-[3rem] pb-[3rem] mb-[2rem]">
+    <div className="flex flex-col wrapper  gap-4 items-center pt-[3rem] pb-[3rem] mb-[2rem]">
       <h1 className="heading text-center max-w-6xl mx-auto">
         “Unlock the Full Potential of Your Business with Our Services”
       </h1>

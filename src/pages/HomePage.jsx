@@ -22,15 +22,15 @@ const HomePage = () => {
       </div>
       <LogoSlider />
       <ServicesList />
-      <IndustriesWeServe />
       <WhyChooseUs />
       <UnlockEfficiency />
       <WorkProcess />
+      <IndustriesWeServe />
       <Portfolio isBannerShow={false} />
+      <CallToAction />
       {/* <BestServicesSlider /> */}
       <Testimonials />
       <ClientsLogoSlider />
-      <CallToAction />
       <GetInTouch />
     </div>
   );
