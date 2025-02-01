@@ -58,7 +58,7 @@ const AppRouter = createBrowserRouter([
       },
       {
         path: "/portfolio",
-        element: <Portfolio />,
+        element: <Portfolio isBannerShow={true} />,
       },
       {
         path: "/thank-you",

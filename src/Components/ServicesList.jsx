@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { allServices } from "../contant";
 
 const ServicesList = () => {
   const [selectedService, setSelectedService] = useState(allServices[0]);
-  const { pathname } = useLocation();
+  // const { pathname } = useLocation();
 
   // set active service
   const handleServiceSelect = (item) => {
@@ -12,7 +12,7 @@ const ServicesList = () => {
   };
   return (
     <section className="wrapper py-[2rem]">
-      <h1 className="heading text-center mb-8 text-white">
+      <h1 className="heading text-center mb-8 text-black">
         Explore Our Offering
       </h1>
       <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-primary rounded-lg">

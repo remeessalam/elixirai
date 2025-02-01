@@ -57,7 +57,7 @@ export const clientDetails = {
 export const navItems = [
   {
     label: "[ LET'S TALK AI ]",
-    // path: "",
+    path: "/services/artificial-intelligence",
     extraClasses: "text-black hover:text-blue-400",
   },
   { label: "HOME", path: "/", extraClasses: "hover:text-blue-400" },
@@ -524,94 +524,202 @@ export const faqItems = [
     Our solutions are tailored to meet the unique needs of each industry.`,
   },
 ];
+// export const webPortfolio = [
+//   {
+//     id: 1,
+//     img: FiveGHomesImg,
+//     title: "5g Homes",
+//     link:""
+//   },
+//   {
+//     id: 2,
+//     img: BayutImg,
+//     title: "Bayut",
+//   },
+//   {
+//     id: 3,
+//     img: ColdCreekcapImg,
+//     title: "Cold Creekcap",
+//   },
+//   {
+//     id: 4,
+//     img: EmergencyMusicImg,
+//     title: "Emergency Music",
+//   },
+//   {
+//     id: 5,
+//     img: FlatiornImg,
+//     title: "Flatiorn",
+//   },
+//   {
+//     id: 6,
+//     img: MavenImg,
+//     title: "Maven",
+//   },
+//   {
+//     id: 7,
+//     img: MenissaCateringsImg,
+//     title: "Menissa Caterings",
+//   },
+//   {
+//     id: 8,
+//     img: MethodistImg,
+//     title: "Methodist",
+//   },
+//   {
+//     id: 9,
+//     img: ThinkRealityImg,
+//     title: "Think Reality",
+//   },
+// ];
 export const webPortfolio = [
   {
     id: 1,
     img: FiveGHomesImg,
     title: "5g Homes",
+    link: "https://5ghighspeedinternet.co",
   },
   {
     id: 2,
     img: BayutImg,
     title: "Bayut",
+    link: "https://www.bayut.com",
   },
   {
     id: 3,
     img: ColdCreekcapImg,
     title: "Cold Creekcap",
+    link: "https://www.coldcreekcap.com",
   },
   {
     id: 4,
     img: EmergencyMusicImg,
     title: "Emergency Music",
+    link: "https://www.figma.com/proto/GwlIMQuIuFevhOEp8moALy/emergence-music-distribuBon?page-id=6298%3A7215&type=design&node-id=6298-7776&viewport=407%2C314%2C0.11&t=QCtz7M4USn6gI1CG-1&scaling=min-zoom",
   },
   {
     id: 5,
     img: FlatiornImg,
     title: "Flatiorn",
+    link: "",
   },
   {
     id: 6,
     img: MavenImg,
     title: "Maven",
+    link: "",
   },
   {
     id: 7,
     img: MenissaCateringsImg,
     title: "Menissa Caterings",
+    link: "https://messinascatering.com",
   },
   {
     id: 8,
     img: MethodistImg,
     title: "Methodist",
+    link: "",
   },
   {
     id: 9,
     img: ThinkRealityImg,
     title: "Think Reality",
+    link: "https://thinkrealty.ae",
   },
 ];
 
 // Portfolio images (App Development)
+// export const appPortfolio = [
+//   {
+//     id: 1,
+//     img: DubaiTravelGuideImg,
+//     title: "Dubai Travel Guide",
+//   },
+//   {
+//     id: 2,
+//     img: EloraHairPalourImg,
+//     title: "Elora Hair Palour",
+//   },
+//   {
+//     id: 3,
+//     img: EvansFrancisImg,
+//     title: "Evans Francis",
+//   },
+//   {
+//     id: 4,
+//     img: HouseOfDeliverenceImg,
+//     title: "House of Deliverence",
+//   },
+//   {
+//     id: 5,
+//     img: MybitsShopImg,
+//     title: "Mybits Shop",
+//   },
+//   {
+//     id: 6,
+//     img: NamazImg,
+//     title: "Namaz",
+//   },
+//   {
+//     id: 7,
+//     img: PoteaImg,
+//     title: "Potea",
+//   },
+//   {
+//     id: 8,
+//     img: RentopBikeAndCarImg,
+//     title: "Rentop Bike and Car",
+//   },
+// ];
+
 export const appPortfolio = [
   {
     id: 1,
     img: DubaiTravelGuideImg,
     title: "Dubai Travel Guide",
+    link: "https://play.google.com/store/apps/details?id=com.eBps.dubai.travel.guide&pcampaignid=web_share",
   },
   {
     id: 2,
     img: EloraHairPalourImg,
     title: "Elora Hair Palour",
+    link: "https://play.google.com/store/apps/details?id=app.barbera.io&pcampaignid=web_share",
   },
   {
     id: 3,
     img: EvansFrancisImg,
     title: "Evans Francis",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.evansfrancis&pcampaignid=web_share",
   },
   {
     id: 4,
     img: HouseOfDeliverenceImg,
     title: "House of Deliverence",
+    link: "https://play.google.com/store/apps/details?id=com.chrisBanappdevelopers.hod&pcampaignid=web_share",
   },
   {
     id: 5,
     img: MybitsShopImg,
     title: "Mybits Shop",
+    link: "https://play.google.com/store/apps/details?id=com.klikomics.android&pcampaignid=web_share",
   },
   {
     id: 6,
     img: NamazImg,
     title: "Namaz",
+    link: "https://play.google.com/store/apps/details?id=com.iccbrossard.prayerBmes&pcampaignid=web_share",
   },
   {
     id: 7,
     img: PoteaImg,
     title: "Potea",
+    link: "https://play.google.com/store/apps/details?id=com.Zigna.AutoSnap&pcampaignid=web_share",
   },
   {
     id: 8,
     img: RentopBikeAndCarImg,
     title: "Rentop Bike and Car",
+    link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];

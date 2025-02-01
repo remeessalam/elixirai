@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 // import { ReactComponent as WhatsApp } from "../assets/svgs/WhatsappIcon.svg";
 import whatsappIcon from "../assets/svgs/WhatsappIcon.svg";
-import { clientDetails } from "../contant";
 const WhatsAppIcon = () => {
   return (
     <Link

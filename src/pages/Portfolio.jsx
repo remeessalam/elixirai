@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import PageBanner from "../Components/PageBanner";
 import { appPortfolio, webPortfolio } from "../contant";
-
-const Portfolio = () => {
+// eslint-disable-next-line
+const Portfolio = ({ isBannerShow }) => {
   return (
     <div>
-      <PageBanner title={"Portfolio"} />
-      <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+      {isBannerShow && <PageBanner title={"Portfolio"} />}
+      <div className="min-h-screen bg-white py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Web Development Portfolio */}
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
@@ -19,9 +20,10 @@ const Portfolio = () => {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {webPortfolio.map((item) => (
-              <div
+              <Link
                 key={item.id}
-                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                className="bg-white rounded-lg hover:scale-105 transition-all duration-300  shadow-lg overflow-hidden"
+                to={item.link}
               >
                 <img
                   src={item.img}
@@ -33,7 +35,7 @@ const Portfolio = () => {
                     {item.title}
                   </h3>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 
@@ -49,9 +51,10 @@ const Portfolio = () => {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {appPortfolio.map((item) => (
-              <div
+              <Link
+                to={item.link}
                 key={item.id}
-                className="bg-white rounded-lg shadow-lg overflow-hidden"
+                className="bg-white rounded-lg shadow-lg hover:scale-105 transition-all duration-300 overflow-hidden"
               >
                 <img
                   src={item.img}
@@ -63,7 +66,7 @@ const Portfolio = () => {
                     {item.title}
                   </h3>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

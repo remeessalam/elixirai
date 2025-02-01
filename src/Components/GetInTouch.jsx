@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { BiCaretRight } from "react-icons/bi";
 // import { SpinnerContext } from "./SpinnerContext";
 import { useNavigate } from "react-router-dom";
@@ -193,7 +193,7 @@ export const InquiryForm = () => {
                   },
                 })}
               />
-              <p className="">{errors.phone?.message}</p>
+              <p className="!text-red-300">{errors.phone?.message}</p>
             </div>
           </div>
           <div className="flex flex-col relative" ref={dropdownRef}>
@@ -225,7 +225,7 @@ export const InquiryForm = () => {
                       setDropdownOpen(false);
                     }}
                   >
-                    <span className="text-red-300">{item.title}</span>
+                    <span className="text-black">{item.title}</span>
                   </div>
                 ))}
               </div>
