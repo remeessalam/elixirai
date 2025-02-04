@@ -11,8 +11,8 @@ const ServicesList = () => {
     setSelectedService(item);
   };
   return (
-    <section className="wrapper py-[2rem]">
-      <h1 className="heading text-center mb-8 text-black">
+    <section className="wrapper  paddingbottom">
+      <h1 className="main-heading text-center mb-8 text-black">
         Explore Our Offering
       </h1>
       <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-primary rounded-lg">
@@ -22,7 +22,7 @@ const ServicesList = () => {
             className="bg-white shadow-inner shadow-primary p-4 lg:p-6 rounded-lg"
           >
             <h4 className="text-2xl font-medium">Our Services</h4>
-            <div className="mt-5 flex flex-wrap md:flex-col gap-3">
+            <div className="mt-5 flex flex-col flex-wrap md:flex-col gap-3">
               {allServices.map((item) => (
                 <button
                   key={item.title}
@@ -30,7 +30,7 @@ const ServicesList = () => {
                     item.id === selectedService.id
                       ? "primary-btn text-white"
                       : "bg-white text-[#17012C]"
-                  } flex items-center gap-2 justify-center rounded-full text-center px-5 py-3 transition-all duration-300 hover:-translate-y-1`}
+                  } flex items-center gap-2 justify-center rounded-full text-start px-5 py-3 transition-all duration-300 hover:-translate-y-1`}
                   onClick={() => handleServiceSelect(item)}
                 >
                   {item.title}
@@ -44,18 +44,25 @@ const ServicesList = () => {
             <h4 data-aos="fade-up" className="text-3xl font-medium">
               {selectedService.title}
             </h4>
-            <p
-              data-aos="fade-up"
-              className="mt-4 description whitespace-pre-line"
-            >
-              {selectedService.description}
-            </p>
+            <ul className="list-disc">
+              {selectedService?.description.map((obj) => {
+                return (
+                  <li
+                    key={obj}
+                    data-aos="fade-up"
+                    className="mt-4 description whitespace-pre-line"
+                  >
+                    {obj}
+                  </li>
+                );
+              })}
+            </ul>
             <Link
               data-aos="fade-up"
               to={selectedService.link}
               className="secondary-btn w-fit mt-6"
             >
-              Read More
+              Click For More
             </Link>
           </div>
         </div>

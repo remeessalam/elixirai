@@ -31,21 +31,18 @@ let workflow = [
 
 const WorkProcess = () => {
   return (
-    <div className="py-[3rem] flex justify-center relative">
+    <div className="paddingtop paddingbottom flex justify-center relative">
       <div className="blurred-blue left-[-10%] bottom-[-10%]"></div>
       <div
         data-aos="fade-up"
-        className="wrapper flex flex-col items-start sm:items-center gap-5 z-10 py-10"
+        className="wrapper flex flex-col items-start sm:items-center gap-5 z-10 paddingtop"
       >
-        <div
-          data-aos="fade-up"
-          className={` section-heading flex items-center gap-1`}
-        >
+        <div data-aos="fade-up" className={`gradient-rounded-text-box  gap-1`}>
           Work Process
         </div>
         <h1
           data-aos="fade-up"
-          className="heading max-w-[60rem] mx-auto text-start sm:text-center"
+          className="main-heading max-w-[60rem] mx-auto text-start sm:text-center"
         >
           4 Steps to Project Development
         </h1>

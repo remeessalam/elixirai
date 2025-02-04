@@ -1,7 +1,7 @@
 import CallToAction from "../Components/CallToAction";
 import ClientsLogoSlider from "../Components/ClientLogoSlider";
 import GetInTouch from "../Components/GetInTouch";
-import LogoSlider from "../Components/LogoSlider";
+// import LogoSlider from "../Components/LogoSlider";
 import RequirementForm from "../Components/RequirementForm";
 import ServicesList from "../Components/ServicesList";
 import Testimonials from "../Components/Testimonials";
@@ -20,7 +20,10 @@ const HomePage = () => {
       <div className=" md:hidden flex wrapper pt-[5rem]">
         <RequirementForm />
       </div>
-      <LogoSlider />
+      <div className="paddingtop">
+        <ClientsLogoSlider hide={true} />
+      </div>
+      {/* <LogoSlider /> */}
       <ServicesList />
       <WhyChooseUs />
       <UnlockEfficiency />

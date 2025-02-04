@@ -6,8 +6,14 @@ const Portfolio = ({ isBannerShow }) => {
   return (
     <div>
       {isBannerShow && <PageBanner title={"Portfolio"} />}
-      <div className="min-h-screen bg-white py-16 px-4 sm:px-6 lg:px-8">
+      <div className="min-h-screen bg-white paddingtop paddingbottom px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
+          <h1
+            data-aos="fade-up"
+            className="main-heading max-w-[60rem] mx-auto text-start sm:text-center"
+          >
+            Portfolio
+          </h1>
           {/* Web Development Portfolio */}
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             Web Development

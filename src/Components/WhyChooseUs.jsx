@@ -57,17 +57,18 @@ const WhyChooseUs = () => {
   //   }, [inView]);
 
   return (
-    <section className="py-[5rem] bg-gradient-to-r from-secondary/30 to-primary/30">
+    <section className="paddingtop paddingbottom bg-gradient-to-r from-secondary/30 to-primary/30">
       <div className="wrapper text-center text-black flex flex-col gap-7">
         <div data-aos="fade-up" className="gradient-rounded-text-box mx-auto">
           Why Choose Us
         </div>
         <div className="flex flex-col gap-5">
-          <h2 data-aos="fade-up" className="heading">
+          <h2 data-aos="fade-up" className="main-heading">
             Magic Behind Our IT Solutions
           </h2>
           <p data-aos="fade-up" className="desc max-w-[40rem] mx-auto">
             We begin by conducting a comprehensive needs assessment to
+            <br />
             understand your specific requirements, challenges, and goals.
           </p>
           <div data-aos="fade-up" className="w-full block lg:hidden">
@@ -159,7 +160,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
         </div>
-        <div className="pt-[3rem]">
+        <div className="">
           <TrustWorthySection />
           {/* <div
             ref={ref}

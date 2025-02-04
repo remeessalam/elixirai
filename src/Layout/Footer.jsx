@@ -10,7 +10,7 @@ import logo from "../assets/logo/logo.png";
 const Footer = () => {
   return (
     <div className="bg-primary/60 py-[3rem] text-white">
-      <div className="px-5 sm:px-10 flex flex-col gap-3 sm:flex-row justify-between">
+      <div className="wrapper flex flex-col gap-3 sm:flex-row justify-between">
         <div className="flex flex-col gap-3 items-start">
           {/* <img
             loading="lazy"

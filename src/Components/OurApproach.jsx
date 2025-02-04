@@ -46,12 +46,10 @@ const OurApproach = () => {
   ];
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
-      <div className="max-w-7xl mx-auto">
+    <section className="paddingtop paddingbottom bg-gray-50">
+      <div className="wrapper paddingtop">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Our Approach
-          </h2>
+          <h2 className="main-heading text-gray-900 mb-4">Our Approach</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We believe the best digital solutions come from strategic thinking
             and collaborative execution.

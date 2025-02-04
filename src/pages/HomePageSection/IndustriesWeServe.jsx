@@ -2,10 +2,10 @@ import { industriesCompanyServe } from "../../contant";
 
 const IndustriesWeServe = () => {
   return (
-    <section className="wrapper py-[4rem]">
+    <section className="wrapper paddingtop paddingbottom">
       <div className="flex flex-col gap-3">
         <div className="flex flex-col gap-3 text-center">
-          <h2 data-aos="fade-up" className="heading">
+          <h2 data-aos="fade-up" className="main-heading">
             Transforming Industries with Tailored Solutions
           </h2>
           <p data-aos="fade-up" className="mt-2 description mb-3">
@@ -13,7 +13,7 @@ const IndustriesWeServe = () => {
             tech solutions to meet specific needs:
           </p>
         </div>
-        <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-7 mb-7">
+        <div className="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-7 ">
           {industriesCompanyServe.map((item) => (
             <div
               key={item.id}

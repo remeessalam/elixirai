@@ -11,8 +11,8 @@ import img8 from "../assets/client-logos/8.png";
 import img9 from "../assets/client-logos/9.png";
 import img10 from "../assets/client-logos/10.png";
 const animation = { duration: 10000, easing: (t) => t };
-
-const ClientsLogoSlider = () => {
+// eslint-disable-next-line
+const ClientsLogoSlider = ({ hide }) => {
   const [sliderRef] = useKeenSlider({
     loop: true,
     renderMode: "performance",
@@ -52,10 +52,16 @@ const ClientsLogoSlider = () => {
     },
   });
   return (
-    <div className="flex flex-col gap-2 py-[5rem] bg-white">
-      <h1 data-aos="fade-up" className="heading text-center">
-        Join Our <span className="text-blue-800">50+</span> Happy Customers
-      </h1>
+    <div className="flex flex-col gap-2 paddingtop paddingbottom  bg-white">
+      {hide ? (
+        <h1 data-aos="fade-up" className="main-heading text-center">
+          Trusted by Clients
+        </h1>
+      ) : (
+        <h1 data-aos="fade-up" className="main-heading text-center">
+          Join Our <span className="text-blue-800">50+</span> Happy Customers
+        </h1>
+      )}
       <div data-aos="fade-left" ref={sliderRef} className="keen-slider mt-4">
         {[img1, img2, img3, img4, img5, img6, img7, img8, img9, img10].map(
           (img, index) => (

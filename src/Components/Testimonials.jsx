@@ -53,7 +53,7 @@ const Testimonials = () => {
   return (
     <>
       <div
-        className="py-[5rem] relative bg-[#9fbffe89]"
+        className="paddingtop paddingbottom relative bg-[#9fbffe89]"
         style={{ backgroundImage: `url(${bgImg})` }}
       >
         <div className="blue-bg-shape left-0 top-0 rotate-45"></div>
@@ -66,7 +66,7 @@ const Testimonials = () => {
           <p className="uppercase z-10 text-primary font-medium relative mb-2 gradient-text">
             testimonials
           </p>
-          <h1 className="heading z-10 relative text-center capitalize">
+          <h1 className="main-heading z-10 relative text-center capitalize">
             What Our Clients Say
           </h1>
         </div>
@@ -101,8 +101,8 @@ const Testimonials = () => {
       </div>
       <div className="bg-white">
         <section className="wrapper">
-          <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 pt-[5rem] pb-[3rem]">
-            <div className="md:aspect-[3/4] w-full overflow-hidden flex flex-col">
+          <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 paddingtop paddingbottom">
+            <div className="md:aspect-[3/4] w-full overflow-hidden flex flex-col paddingtop">
               <img
                 src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/35af6a41332353.57a1ce913e889.jpg"
                 loading="lazy"
@@ -111,7 +111,7 @@ const Testimonials = () => {
               />
             </div>
             <div className="flex flex-col gap-5">
-              <h3 className="heading">Our CEO Message</h3>
+              <h3 className="main-heading">Our CEO Message</h3>
               <p className="description">
                 At ELIXIR AI, we leverage the power of AI to create
                 transformative digital experiences that elevate businesses. Our

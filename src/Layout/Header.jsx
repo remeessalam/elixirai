@@ -31,19 +31,27 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-colors duration-300 ${
-        isScrolled ? "bg-white" : "bg-transparent"
+        isScrolled
+          ? "bg-white/70 bg-opacity-50  backdrop-blur-sm"
+          : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="hidden md:flex text-black justify-center gap-6 py-2">
-          <h3 className="flex items-center gap-2">
+      <div className="wrapper">
+        <div className="hidden md:flex text-black justify-end gap-6 py-2">
+          <Link
+            to={`mailto:${clientDetails.email}`}
+            className="flex items-center gap-2"
+          >
             <CiMail className="w-5 h-5" /> {clientDetails.email}
-          </h3>
+          </Link>
           |
-          <h3 className="flex items-center gap-2">
+          <Link
+            to={`tel:${clientDetails.phone}`}
+            className="flex items-center gap-2"
+          >
             <FaPhoneAlt className="w-4 h-4" />
             {clientDetails.phone}
-          </h3>
+          </Link>
         </div>
         <div className="flex justify-between items-center pt-5 md:pt-0 pb-8">
           {/* Logo */}
@@ -65,7 +73,7 @@ const Header = () => {
                     : item.path !== "/contact-us"
                     ? ""
                     : ""
-                }`}
+                } !capitalize`}
               >
                 {item.label}
               </Link>

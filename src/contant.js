@@ -4,11 +4,12 @@ import FintechImg from "./assets/industries/Fintech.webp";
 import InsuranceImg from "./assets/industries/Insurance.webp";
 import HospitalityImg from "./assets/industries/Hospitality.webp";
 import ManufacturingImg from "./assets/industries/Manufacturing.webp";
-import OnDemandImg from "./assets/industries/On Demand.webp";
+import OnDemandImg from "./assets/industries/On Demand.jpg";
 import FoodRestaurantImg from "./assets/industries/Food & Restaurant.webp";
 import LogisticsImg from "./assets/industries/Logistics & Supply Chain.webp";
 import EducationImg from "./assets/industries/Education.webp";
 import GameImg from "./assets/industries/Game.webp";
+import RealEstateImg from "./assets/industries/RealEstateImg.jpg";
 import webDevIcon from "./assets/images/slider-item-webdev-icon.png";
 import appDevIcon from "./assets/images/slider-item-appdev-icon.png";
 import aiIcon from "./assets/images/slider-item-ai-icon.png";
@@ -60,29 +61,29 @@ export const navItems = [
     path: "/services/artificial-intelligence",
     extraClasses: "text-black hover:text-blue-400",
   },
-  { label: "HOME", path: "/", extraClasses: "hover:text-blue-400" },
-  { label: "ABOUT", path: "/about-us", extraClasses: "hover:text-blue-400" },
-  { label: "SERVICES", path: "/services", extraClasses: "hover:text-blue-400" },
+  { label: "Home", path: "/", extraClasses: "hover:text-blue-400 " },
+  { label: "About", path: "/about-us", extraClasses: "hover:text-blue-400" },
+  { label: "Services", path: "/services", extraClasses: "hover:text-blue-400" },
   // Uncomment the below links if needed
   {
-    label: "INDUSTRIES",
+    label: "Industries",
     path: "/industries",
     extraClasses: "hover:text-blue-400",
   },
   {
-    label: "PORTFOLIO",
+    label: "Portfolio",
     path: "/portfolio",
     extraClasses: "hover:text-blue-400",
   },
   {
-    label: "BLOGS",
+    label: "Blogs",
     // path: "/industries",
     extraClasses: "hover:text-blue-400",
   },
   // { label: "PORTFOLIO", path: "/portfolio", extraClasses: "hover:text-blue-400" },
   // { label: "RESOURCES", path: "/resources", extraClasses: "hover:text-blue-400" },
   {
-    label: "CONTACT US",
+    label: "Contact Us",
     path: "/contact-us",
     extraClasses:
       "bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700",
@@ -95,8 +96,13 @@ export const allServices = [
     img: service1,
     title: "Web Development",
     link: "/services/web-development",
-    description:
-      "Your website is often the first impression you make on potential customers. It needs to be engaging, functional, and user-friendly. At ELIXIR AI, we build custom websites that are crafted to meet the unique needs of your business. Whether you need a dynamic corporate site, an eCommerce platform, or a simple landing page, we ensure your website provides a seamless user experience, no matter the device.",
+    description: [
+      "Custom websites tailored to your business needs.",
+      "Engaging, functional, and user-friendly design.",
+      "Responsive across all devices for seamless user experience.",
+      "E-commerce solutions with secure payment options.",
+      "SEO-optimized to enhance online visibility.",
+    ],
     services: [
       {
         heading: "Custom Web Development",
@@ -130,8 +136,13 @@ export const allServices = [
     img: service1,
     title: "App Development",
     link: "/services/app-development",
-    description:
-      "In today’s mobile-first world, a strong app can help you connect with your audience and enhance your business offerings. Our team specializes in building high-quality mobile applications that are both functional and visually appealing. We focus on developing apps that provide seamless user experiences, whether you need a native app for iOS or Android, or a cross-platform solution.",
+    description: [
+      "Build high-quality, visually appealing mobile applications.",
+      "Seamless user experience across iOS and Android.",
+      "Cross-platform development for cost-effective solutions.",
+      "Custom UI/UX design to enhance engagement.",
+      "Ongoing app maintenance and updates.",
+    ],
     services: [
       {
         heading: "iOS & Android Development",
@@ -162,47 +173,16 @@ export const allServices = [
   },
   {
     id: 3,
-    img: service3,
-    title: "AI Development",
-    link: "/services/artificial-intelligence",
-    description:
-      "Artificial Intelligence has the power to revolutionize the way businesses operate. We help organizations harness the power of AI to streamline processes, gain deeper insights, and improve decision-making. Our team leverages the latest AI technologies, from machine learning to natural language processing, to create intelligent solutions that deliver real business value.",
-    services: [
-      {
-        heading: "Machine Learning Solutions",
-        description:
-          "We create intelligent systems that learn from your data, improving decision-making, automating processes, and enhancing your operations over time.",
-      },
-      {
-        heading: "Natural Language Processing (NLP)",
-        description:
-          "We develop AI solutions that enable your systems to understand, interpret, and respond to human language, from chatbots to automated customer service.",
-      },
-      {
-        heading: "Predictive Analytics",
-        description:
-          "By analyzing historical data, we build predictive models that help you anticipate trends, identify patterns, and make data-driven decisions.",
-      },
-      {
-        heading: "AI Automation",
-        description:
-          "We design AI solutions that automate repetitive tasks, freeing up your team to focus on more strategic initiatives and improving efficiency across the board.",
-      },
-      {
-        heading: "Custom AI Integrations",
-        description:
-          "We help integrate AI into your existing systems to enhance performance, improve user experiences, and drive business growth.",
-      },
-    ],
-  },
-  {
-    id: 4,
     img: service6,
     title: "UI/UX Design",
     link: "/services/uiux-design",
-
-    description:
-      "Creating a great digital experience goes beyond just having a functional website or app. It’s about designing interfaces that are easy to use, visually appealing, and intuitive. Our UI/UX design team specializes in crafting user-centric designs that not only look great but also provide seamless interactions. We ensure every touchpoint is carefully designed to enhance user satisfaction and engagement.",
+    description: [
+      "Create intuitive and user-friendly digital experiences.",
+      "Focus on research-driven UI/UX strategies.",
+      "Wireframing and prototyping for seamless design execution.",
+      "Enhance brand identity through consistent design systems.",
+      "Usability testing to ensure optimal user experience.",
+    ],
     services: [
       {
         heading: "User Research & Insights",
@@ -228,6 +208,52 @@ export const allServices = [
         heading: "Branding & Design Systems",
         description:
           "We create consistent design systems and user interface guidelines that align with your brand identity, ensuring a cohesive and recognizable experience across all platforms.",
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: service3,
+    title: "Artificial Intelligence",
+    link: "/services/artificial-intelligence",
+    description: [
+      "Leverage AI to automate processes and improve efficiency.",
+      "Machine learning solutions for data-driven decision-making.",
+      "Natural Language Processing (NLP) for better human-computer interaction.",
+      "Predictive analytics to anticipate trends and behaviors.",
+      "AI-powered automation to enhance productivity.",
+      "AI Calling Agency solutions for automated and intelligent customer interactions.",
+    ],
+    services: [
+      {
+        heading: "Machine Learning Solutions",
+        description:
+          "We create intelligent systems that learn from your data, improving decision-making, automating processes, and enhancing your operations over time.",
+      },
+      {
+        heading: "Natural Language Processing (NLP)",
+        description:
+          "We develop AI solutions that enable your systems to understand, interpret, and respond to human language, from chatbots to automated customer service.",
+      },
+      {
+        heading: "Predictive Analytics",
+        description:
+          "By analyzing historical data, we build predictive models that help you anticipate trends, identify patterns, and make data-driven decisions.",
+      },
+      {
+        heading: "AI Automation",
+        description:
+          "We design AI solutions that automate repetitive tasks, freeing up your team to focus on more strategic initiatives and improving efficiency across the board.",
+      },
+      {
+        heading: "AI Calling Agency",
+        description:
+          "Our AI-driven calling solutions automate customer interactions, provide intelligent responses, and streamline call center operations for improved efficiency.",
+      },
+      {
+        heading: "Custom AI Integrations",
+        description:
+          "We help integrate AI into your existing systems to enhance performance, improve user experiences, and drive business growth.",
       },
     ],
   },
@@ -272,9 +298,9 @@ export const industriesCompanyServe = [
   },
   {
     id: 7,
-    title: "On Demand",
+    title: "Legal Services",
     img: OnDemandImg,
-    desc: "Empowering on-demand platforms with intelligent matchmaking, real-time tracking, and user-centric analytics.",
+    desc: "Expert legal solutions in contract law, intellectual property, corporate governance, and dispute resolution, ensuring compliance and strategic advice for business growth.",
   },
   {
     id: 8,
@@ -299,6 +325,12 @@ export const industriesCompanyServe = [
     title: "Game",
     img: GameImg,
     desc: "Elevating game development with AI-enhanced graphics, player behavior analytics, and immersive experiences.",
+  },
+  {
+    id: 12,
+    title: "Real Estate Services",
+    img: RealEstateImg,
+    desc: "Expert property management, investment guidance, and tailored solutions for buying, selling, and renting residential and commercial properties.",
   },
 ];
 

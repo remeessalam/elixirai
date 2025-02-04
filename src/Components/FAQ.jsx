@@ -2,13 +2,11 @@ import { faqItems } from "../contant";
 
 const FAQ = () => {
   return (
-    <div className="bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <div className="bg-gray-50 paddingtop paddingbottom">
+      <div className="wrapper paddingbottom">
         {/* Heading Section */}
-        <div className="text-center mb-16">
-          <h3 className="text-4xl font-bold text-gray-900 mb-4">
-            {"FAQs".toUpperCase()}
-          </h3>
+        <div className="text-center mb-8">
+          <h3 className="main-heading text-gray-900 mb-4 ">{"FAQS"}</h3>
           <p className="text-lg text-gray-600">
             Find answers to common questions about our services.
           </p>

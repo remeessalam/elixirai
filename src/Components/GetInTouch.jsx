@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { BiCaretRight } from "react-icons/bi";
 // import { SpinnerContext } from "./SpinnerContext";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { allServices, clientDetails } from "../contant";
@@ -13,13 +13,21 @@ const GetInTouch = () => {
       <div className="red-g-shape bottom-[-2rem] left-[-2rem] -z-10 rotate-[-45deg]"></div>
       <div className="wrapper grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:justify-items-stretch items-center gap-7">
         <div data-aos="fade-right" className="flex flex-col gap-5">
-          <h1 className="heading text-center lg:text-start">
-            Ready to Lead with Innovation and Drive Your Business Forward?
+          <h1 className="main-heading text-center lg:text-start">
+            Ready to find out
+            <br />
+            if we are the one’s for you?
           </h1>
           <p className="description text-center lg:text-start">
-            Reach out to discover how our tech solutions can propel your
-            business forward.
+            Schedule your <strong>FREE</strong>, 30-minutes strategy session
+            with our founder, Gaurav Singh.
           </p>
+          <Link
+            to={"https://calendly.com/gauravssingh18/30min"}
+            className="bg-blue-600 text-white px-8 w-fit py-3 rounded-md hover:bg-blue-700 transition-colors duration-300"
+          >
+            BOOK A FREE CONSULTATION
+          </Link>
         </div>
         <InquiryForm />
       </div>
@@ -110,7 +118,9 @@ export const InquiryForm = () => {
   };
   return (
     <div data-aos="fade-left" className="flex flex-col items-start gap-3 group">
-      <p className="gradient-text uppercase">Let&apos;s connect</p>
+      <p className="gradient-text uppercase !text-blue-600 font-medium">
+        Let&apos;s connect
+      </p>
       <div className="bg-gradient-to-b from-primary to-primary/70 rounded-2xl w-fit p-7">
         <h2 className="text-3xl text-white font-medium">
           Connect With Our Team to Get Started!

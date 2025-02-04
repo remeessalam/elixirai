@@ -5,6 +5,7 @@ const RequirementForm = () => {
     register,
     handleSubmit,
     formState: { errors },
+    trigger,
   } = useForm();
 
   const onSubmit = (data) => {
@@ -52,11 +53,12 @@ const RequirementForm = () => {
             {...register("email", {
               required: "Email is required",
               pattern: {
-                value: /^\S+@\S+$/i,
+                value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
                 message: "Invalid email address",
               },
             })}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            onBlur={() => trigger("email")} // Ensure validation triggers on blur
           />
           {errors.email && (
             <span className="text-red-500 text-sm mt-1">
@@ -76,7 +78,17 @@ const RequirementForm = () => {
           <input
             type="tel"
             id="phone"
-            {...register("phone", { required: "Phone number is required" })}
+            {...register("phone", {
+              required: "Phone number is required",
+              pattern: {
+                value: /^[0-9]+$/, // Only digits allowed
+                message: "Phone number must contain only numbers",
+              },
+              validate: (value) =>
+                value.length === 10 ||
+                value.length === 12 ||
+                "Phone number must be 10 or 12 digits long",
+            })}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.phone && (
@@ -129,6 +141,7 @@ const RequirementForm = () => {
             <option value="500-1000">$500 - $1000</option>
             <option value="1000-5000">$1000 - $5000</option>
             <option value="5000+">$5000+</option>
+            <option value="5000+">Still evaluating</option>
           </select>
           {errors.budget && (
             <span className="text-red-500 text-sm mt-1">
@@ -164,7 +177,7 @@ const RequirementForm = () => {
             type="submit"
             className="w-full bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors duration-300"
           >
-            SUBMIT
+            GET STARTED
           </button>
         </div>
       </form>

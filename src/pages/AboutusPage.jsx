@@ -15,9 +15,9 @@ const AboutusPage = () => {
   return (
     <div>
       <PageBanner title={"About Us"} />
-      <section className="py-[5rem] wrapper grid gap-10 lg:grid-cols-2">
+      <section className="paddingtop paddingbottom wrapper grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col text-black">
-          <h1 data-aos="fade-right" className="heading">
+          <h1 data-aos="fade-right" className="main-heading">
             Innovating the Future with Advanced AI and Digital Solutions
           </h1>
           <p data-aos="fade-right" className="description mt-4">
@@ -41,7 +41,7 @@ const AboutusPage = () => {
           loading="lazy"
           src={img1}
           alt="about us"
-          className="w-full rounded-lg h-[40vh] lg:h-full object-cover"
+          className="w-full rounded-lg max-h-[55vh]  lg:h-full object-cover"
         />
       </section>
       {/* <CompanyAchievements /> */}
