@@ -14,6 +14,13 @@ const RequirementForm = () => {
   };
   return (
     <div className="bg-white p-8 rounded-2xl shadow-xl w-full">
+      <h1 className="text-2xl font-semibold text-center">
+        Share your Requirements
+      </h1>
+      <p className="text-center py-2">
+        To help our experts understand your business objectives and <br />
+        create you customized plan.
+      </p>
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="grid md:grid-cols-2 gap-6"

@@ -58,7 +58,11 @@ const ClientsLogoSlider = ({ hide }) => {
           Trusted by Clients
         </h1>
       ) : (
-        <h1 data-aos="fade-up" className="main-heading text-center">
+        <h1
+          data-aos="fade-up"
+          data-aos-offset="-200"
+          className="main-heading text-center"
+        >
           Join Our <span className="text-blue-800">50+</span> Happy Customers
         </h1>
       )}

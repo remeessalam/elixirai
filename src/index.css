@@ -22,7 +22,7 @@ body {
     @apply pb-[1rem] md:pb-[2rem];
   }
   .main-heading {
-    @apply text-[2rem] md:text-[3rem] font-bold leading-tight;
+    @apply text-[2rem] md:text-[3rem] font-bold leading-tight bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent;
   }
   .active-link {
     @apply text-primary font-semibold;

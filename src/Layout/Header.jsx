@@ -113,11 +113,17 @@ const Header = () => {
           </button>
         </div>
         <div className="flex flex-col gap-6">
-          {navItems.map(({ label, path }) => (
+          {navItems.map(({ label, path, extraClasses }) => (
             <Link
               onClick={() => setIsOpen(false)}
               key={path}
-              className="text-3xl text-black font-medium transition-colors duration-300 link"
+              className={`${extraClasses} ${
+                pathname === path && path !== "/contact-us"
+                  ? "active-link"
+                  : path !== "/contact-us"
+                  ? ""
+                  : ""
+              } !capitalize`}
               to={path}
             >
               {label}

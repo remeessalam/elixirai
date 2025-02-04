@@ -28,7 +28,7 @@ const TrustWorthySection = () => {
                   scrollSpyOnce
                   enableScrollSpy
                   duration={3}
-                  end={6}
+                  end={2}
                   suffix="+"
                 />
               </h1>
@@ -54,7 +54,7 @@ const TrustWorthySection = () => {
                   scrollSpyOnce
                   enableScrollSpy
                   duration={5}
-                  end={250}
+                  end={50}
                   suffix="+"
                 />
               </h1>
@@ -77,7 +77,7 @@ const TrustWorthySection = () => {
                   scrollSpyOnce
                   enableScrollSpy
                   duration={5}
-                  end={30}
+                  end={20}
                   suffix="+"
                 />
               </h1>

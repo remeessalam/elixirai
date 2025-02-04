@@ -103,6 +103,7 @@ const Testimonials = () => {
         <section className="wrapper">
           <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 paddingtop paddingbottom">
             <div
+              data-aos-offset="-100"
               data-aos="fade-right"
               className="md:aspect-[3/4] w-full overflow-hidden flex flex-col paddingtop"
             >
@@ -114,7 +115,11 @@ const Testimonials = () => {
               />
             </div>
             <div className="flex flex-col gap-5">
-              <h3 data-aos="fade-up" className="main-heading">
+              <h3
+                data-aos-offset="-100"
+                data-aos="fade-up"
+                className="main-heading"
+              >
                 Our CEO Message
               </h3>
               <p
