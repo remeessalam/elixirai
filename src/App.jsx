@@ -16,6 +16,7 @@ const Industries = lazy(() => import("./pages/Industries"));
 const ServicePageLayout = lazy(() => import("./Layout/ServicePageLayout"));
 const Portfolio = lazy(() => import("./pages/Portfolio"));
 const Thankyou = lazy(() => import("./Components/ThankYou"));
+const BlogsPage = lazy(() => import("./pages/BlogsPage"));
 
 const AppRouter = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const AppRouter = createBrowserRouter([
       {
         path: "/contact-us",
         element: <ContactPage />,
+      },
+      {
+        path: "/blogs",
+        element: <BlogsPage />,
       },
       {
         path: "/portfolio",

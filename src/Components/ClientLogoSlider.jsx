@@ -62,7 +62,7 @@ const ClientsLogoSlider = ({ hide }) => {
           Join Our <span className="text-blue-800">50+</span> Happy Customers
         </h1>
       )}
-      <div data-aos="fade-left" ref={sliderRef} className="keen-slider mt-4">
+      <div ref={sliderRef} className="keen-slider mt-4">
         {[img1, img2, img3, img4, img5, img6, img7, img8, img9, img10].map(
           (img, index) => (
             <div key={index} className="keen-slider__slide flex justify-center">

@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Outlet } from "react-router-dom";
 import Header from "./Header";
 import "keen-slider/keen-slider.min.css";
@@ -7,6 +9,10 @@ import WhatsAppIcon from "../Components/WhatAppIcon";
 // import TawkMessengerReact from "@tawk.to/tawk-messenger-react";
 
 const AppLayout = () => {
+  AOS.init({
+    once: true,
+    duration: 1000,
+  });
   return (
     <div className="overflow-hidden">
       <Header />

@@ -77,7 +77,7 @@ export const navItems = [
   },
   {
     label: "Blogs",
-    // path: "/industries",
+    path: "/blogs",
     extraClasses: "hover:text-blue-400",
   },
   // { label: "PORTFOLIO", path: "/portfolio", extraClasses: "hover:text-blue-400" },
@@ -382,7 +382,7 @@ export const testimonials = [
     name: "Rohan Sharma",
     title: "CEO of ShopSmart Pvt Ltd",
     description:
-      "Working with ELIXIR AI was a game-changer for our e-commerce business. We needed a mobile app that could handle a large inventory and ensure a seamless shopping experience for our customers. ELIXIR AI not only delivered a user-friendly app for both Android and iOS but also integrated real-time inventory management and personalized recommendations using AI algorithms. Their team was incredibly responsive and flexible, making adjustments based on our feedback at every stage of development.",
+      "ELIXIR AI helped us build a seamless e-commerce platform with top-notch web development. Their team delivered a responsive website, ensuring an excellent user experience across all devices. The integration of real-time inventory management and AI-powered recommendations has significantly improved our customer engagement and sales.",
   },
   {
     id: 2,
@@ -390,7 +390,7 @@ export const testimonials = [
     name: "Priya Bansal",
     title: "Managing Director of SafeFunds Financial Group",
     description:
-      "As a financial services company, we required a blockchain solution to improve transparency and security for our clients. We approached ELIXIR AI with a complex set of requirements involving smart contracts, secure transaction tracking, and decentralized data storage. Their team impressed us with their in-depth knowledge of blockchain technology and ability to explain complex concepts in simple terms. From initial consultation to the final implementation, ELIXIR AI was professional, efficient, and very detail-oriented.",
+      "For our mobile application, we turned to ELIXIR AI for their expertise in app development. They created a user-friendly app for both Android and iOS that seamlessly integrates with our blockchain solutions. The app’s intuitive design and smooth functionality enhanced our client experience and improved service efficiency.",
   },
   {
     id: 3,
@@ -398,7 +398,7 @@ export const testimonials = [
     name: "Vikram Rao",
     title: "Operations Manager at FreshMart Retail Solutions",
     description:
-      "We wanted to leverage AI to enhance our retail analytics capabilities, but we had no idea where to start. ELIXIR AI provided a comprehensive solution that included everything from customer behavior analysis to predictive modeling. They created an AI-driven platform that analyzed real-time customer data and provided actionable insights on purchasing trends, inventory optimization, and personalized marketing strategies.",
+      "We sought AI-powered solutions to enhance our retail analytics, and ELIXIR AI provided a comprehensive platform that used artificial intelligence to analyze customer behavior, optimize inventory, and predict trends. Their platform helped us make data-driven decisions and personalize our marketing strategies for better customer engagement.",
   },
   {
     id: 4,
@@ -406,7 +406,7 @@ export const testimonials = [
     name: "Dr. Meera Nair",
     title: "Co-Founder of HealthNet Solutions",
     description:
-      "Since implementing their solution, we have seen a significant improvement in data security, with no incidents of breaches or unauthorized access. Our clients and patients feel more confident knowing that their data is protected with cutting-edge technology. ELIXIR AI's attention to detail and ongoing support has been invaluable, making them our go-to partner for all things cybersecurity.",
+      "ELIXIR AI’s expertise in UI/UX design made a significant impact on our healthcare platform. They revamped our user interface, ensuring a clean and intuitive design that’s easy for our patients and clients to navigate. The new design has enhanced user engagement and significantly improved our platform's overall functionality.",
   },
   {
     id: 5,
@@ -414,7 +414,7 @@ export const testimonials = [
     name: "Anjali Deshmukh",
     title: "Sales Director at Elite Properties Pvt Ltd",
     description:
-      "We were looking for innovative ways to enhance our client experience in real estate sales. ELIXIR AI helped us develop an immersive VR platform that allows potential buyers to take virtual tours of our properties from anywhere in the world. The VR environment was meticulously designed, with detailed 3D renderings that gave buyers a realistic feel of our homes.",
+      "To elevate our real estate business, ELIXIR AI developed an innovative mobile app that offers virtual property tours, enhancing the buyer's experience. The app’s design and functionality were crafted with user-centric principles in mind, giving our clients an immersive experience from the convenience of their homes.",
   },
   {
     id: 6,
@@ -422,7 +422,7 @@ export const testimonials = [
     name: "Ajay Patil",
     title: "CTO of TechServe Solutions",
     description:
-      "We needed a completely revamped website that could better reflect our growing enterprise software business. ELIXIR AI came in and completely redesigned our website from the ground up, implementing a responsive, mobile-friendly design with integrated CRM tools and a content management system. The website's new user interface is sleek, modern, and easy to navigate, providing our clients with a better experience.",
+      "When we needed a complete redesign of our website, ELIXIR AI delivered a sleek, responsive platform that reflects our growing tech company. The new site not only showcases our products but also integrates advanced AI solutions, providing personalized user experiences and ensuring seamless navigation across devices.",
   },
   {
     id: 7,
@@ -430,7 +430,7 @@ export const testimonials = [
     name: "Sunil Kapoor",
     title: "Operations Manager at SteelTech Manufacturing",
     description:
-      "Our manufacturing process was riddled with inefficiencies due to manual data entry and repetitive tasks. ELIXIR AI’s Robotic Process Automation (RPA) solution helped us automate critical processes, from order fulfillment to inventory management. The RPA bots they developed have been instrumental in cutting down human errors, reducing operational costs, and improving productivity.",
+      "ELIXIR AI revolutionized our internal operations with their web and app development expertise, creating a solution that integrates seamlessly with our existing processes. The user-friendly interface and AI-powered automation have dramatically increased productivity, reducing errors and saving us valuable time and resources.",
   },
 ];
 

@@ -102,7 +102,10 @@ const Testimonials = () => {
       <div className="bg-white">
         <section className="wrapper">
           <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 paddingtop paddingbottom">
-            <div className="md:aspect-[3/4] w-full overflow-hidden flex flex-col paddingtop">
+            <div
+              data-aos="fade-right"
+              className="md:aspect-[3/4] w-full overflow-hidden flex flex-col paddingtop"
+            >
               <img
                 src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/35af6a41332353.57a1ce913e889.jpg"
                 loading="lazy"
@@ -111,8 +114,14 @@ const Testimonials = () => {
               />
             </div>
             <div className="flex flex-col gap-5">
-              <h3 className="main-heading">Our CEO Message</h3>
-              <p className="description">
+              <h3 data-aos="fade-up" className="main-heading">
+                Our CEO Message
+              </h3>
+              <p
+                data-aos="fade-up"
+                data-aos-offset="-100"
+                className="description"
+              >
                 At ELIXIR AI, we leverage the power of AI to create
                 transformative digital experiences that elevate businesses. Our
                 commitment to innovation drives us to develop intelligent

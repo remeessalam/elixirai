@@ -49,8 +49,13 @@ const OurApproach = () => {
     <section className="paddingtop paddingbottom bg-gray-50">
       <div className="wrapper paddingtop">
         <div className="text-center mb-12">
-          <h2 className="main-heading text-gray-900 mb-4">Our Approach</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 data-aos="fade-up" className="main-heading text-gray-900 mb-4">
+            Our Approach
+          </h2>
+          <p
+            data-aos="fade-up"
+            className="text-xl text-gray-600 max-w-3xl mx-auto"
+          >
             We believe the best digital solutions come from strategic thinking
             and collaborative execution.
           </p>
@@ -59,6 +64,7 @@ const OurApproach = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {approachSteps.map((step) => (
             <div
+              data-aos="fade-up"
               key={step.id}
               className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
