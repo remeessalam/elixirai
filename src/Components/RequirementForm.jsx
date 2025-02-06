@@ -1,17 +1,69 @@
+import { useState } from "react";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
+import { useNavigate } from "react-router-dom";
 
 const RequirementForm = () => {
+  const [spinner, setSpinner] = useState(false);
+  const navigate = useNavigate();
+
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isSubmitting },
     trigger,
+    reset,
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
-    // Handle form submission here
+  const onSubmit = async (data) => {
+    setSpinner(true);
+
+    // Construct the email body
+    const emailBody = `
+      Name: ${data.name}\n
+      Email: ${data.email}\n
+      Phone: ${data.phone}\n
+      Service Needed: ${data.service}\n
+      Budget: ${data.budget}\n
+      Message:\n ${data.message}
+    `;
+
+    // Construct the request payload
+    const payload = {
+      to: data.email, // Sending to the user's email
+      subject: `New Requirement from ${data.name}`,
+      body: emailBody,
+    };
+
+    try {
+      const response = await fetch(
+        "https://smtp-api-tawny.vercel.app/send-email",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(payload),
+        }
+      );
+
+      const res = await response.json();
+
+      if (res.error) {
+        toast.error(res.error);
+      } else {
+        toast.success("Email sent successfully!");
+        reset(); // Reset form fields
+        navigate("/thank-you"); // Redirect to thank-you page
+      }
+      //eslint-disable-next-line
+    } catch (error) {
+      toast.error("Failed to send email. Please try again.");
+    } finally {
+      setSpinner(false);
+    }
   };
+
   return (
     <div className="bg-white p-4 rounded-2xl shadow-xl w-full">
       <h1 className="text-2xl font-semibold text-center">
@@ -19,7 +71,7 @@ const RequirementForm = () => {
       </h1>
       <p className="text-center py-2">
         To help our experts understand your business objectives and <br />
-        create you customized plan.
+        create your customized plan.
       </p>
       <form
         onSubmit={handleSubmit(onSubmit)}
@@ -37,6 +89,7 @@ const RequirementForm = () => {
             type="text"
             id="name"
             {...register("name", { required: "Name is required" })}
+            onBlur={() => trigger("name")}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.name && (
@@ -96,6 +149,7 @@ const RequirementForm = () => {
                 value.length === 12 ||
                 "Phone number must be 10 or 12 digits long",
             })}
+            onBlur={() => trigger("phone")}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.phone && (
@@ -116,6 +170,7 @@ const RequirementForm = () => {
           <select
             id="service"
             {...register("service", { required: "Service is required" })}
+            onBlur={() => trigger("service")}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="">Select a service</option>
@@ -142,6 +197,7 @@ const RequirementForm = () => {
           <select
             id="budget"
             {...register("budget", { required: "Budget is required" })}
+            onBlur={() => trigger("budget")}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           >
             <option value="">Select a budget</option>
@@ -168,6 +224,7 @@ const RequirementForm = () => {
           <textarea
             id="message"
             {...register("message", { required: "Message is required" })}
+            onBlur={() => trigger("message")}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             rows="3"
           />
@@ -182,6 +239,7 @@ const RequirementForm = () => {
         <div className="col-span-1 md:col-span-2">
           <button
             type="submit"
+            disabled={isSubmitting}
             className="w-full bg-blue-600 text-white px-8 py-3 rounded-md hover:bg-blue-700 transition-colors duration-300"
           >
             GET STARTED

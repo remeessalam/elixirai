@@ -61,7 +61,7 @@ const CompanyAchievements = () => {
             Driving AI Innovation Today, Shaping a Smarter Tomorrow
           </h3>
           <p data-aos="fade-up" className=" text-white/80 text-desc ">
-            At ELIXIR AI., we specialize in creating customized technology
+            At ELIXIRAI., we specialize in creating customized technology
             solutions that drive business success. Our expert team leverages
             cutting-edge innovation to help companies enhance efficiency,
             accelerate growth, and stay ahead of the competition.

@@ -16,10 +16,14 @@ const GetInTouch = () => {
           <h1 className="main-heading text-center lg:text-start">
             Ready to find out
             <br />
-            if we are the one’s for you?
+            <span className="!text-[2.5rem]">
+              if we are the one’s for{" "}
+              <storng className="font-extrabold">YOU</storng> ?
+            </span>
           </h1>
           <p className="description text-center lg:text-start">
             Schedule your <strong>FREE</strong>, 30-minutes strategy session
+            <br />
             with our founder, Gaurav Singh.
           </p>
           <Link

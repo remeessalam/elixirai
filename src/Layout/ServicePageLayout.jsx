@@ -42,7 +42,7 @@ const ServicePageLayout = () => {
                 ))}
               </div>
             </div>
-            <div
+            {/* <div
               data-aos="fade-up"
               className="text-center bg-gradient-to-b hidden md:flex flex-col items-center gap-3 text-white from-blue-500 to-primary shadow-inner shadow-white px-4 lg:px-6 py-10 rounded-lg"
             >
@@ -53,7 +53,7 @@ const ServicePageLayout = () => {
               <Link to={`tel:${clientDetails.phone}`} className="font-semibold">
                 {clientDetails.phone}
               </Link>
-            </div>
+            </div> */}
             <div
               data-aos="fade-up"
               className="text-center bg-blue-300 hidden md:flex flex-col items-start gap-3 px-4 lg:px-6 py-10 rounded-lg"

@@ -51,7 +51,7 @@ import RentopBikeAndCarImg from "./assets/app-development-portfolio/rentop bike 
 export const clientDetails = {
   phone: "+91-8591331353",
   whatsappbox: "8591331353",
-  email: "example@gmail.com",
+  email: "support@elixirai.co",
   address: "Malad West, Mumbai, Maharashtra – 400095, India",
 };
 
@@ -341,7 +341,7 @@ export const bestServices = [
     icon: appDevIcon,
     img: appDevCardImg,
     description:
-      "AppGalaxy, a subsidiary of ELIXIR AI, specializes in premium website and app development services. We work across platforms to deliver seamless digital experiences that scale new customer acquisition and retention for commerce brands.",
+      "AppGalaxy, a subsidiary of ELIXIRAI, specializes in premium website and app development services. We work across platforms to deliver seamless digital experiences that scale new customer acquisition and retention for commerce brands.",
     link: "/services/web-app-development",
   },
 
@@ -382,7 +382,7 @@ export const testimonials = [
     name: "Rohan Sharma",
     title: "CEO of ShopSmart Pvt Ltd",
     description:
-      "ELIXIR AI helped us build a seamless e-commerce platform with top-notch web development. Their team delivered a responsive website, ensuring an excellent user experience across all devices. The integration of real-time inventory management and AI-powered recommendations has significantly improved our customer engagement and sales.",
+      "ELIXIRAI helped us build a seamless e-commerce platform with top-notch web development. Their team delivered a responsive website, ensuring an excellent user experience across all devices. The integration of real-time inventory management and AI-powered recommendations has significantly improved our customer engagement and sales.",
   },
   {
     id: 2,
@@ -390,7 +390,7 @@ export const testimonials = [
     name: "Priya Bansal",
     title: "Managing Director of SafeFunds Financial Group",
     description:
-      "For our mobile application, we turned to ELIXIR AI for their expertise in app development. They created a user-friendly app for both Android and iOS that seamlessly integrates with our blockchain solutions. The app’s intuitive design and smooth functionality enhanced our client experience and improved service efficiency.",
+      "For our mobile application, we turned to ELIXIRAI for their expertise in app development. They created a user-friendly app for both Android and iOS that seamlessly integrates with our blockchain solutions. The app’s intuitive design and smooth functionality enhanced our client experience and improved service efficiency.",
   },
   {
     id: 3,
@@ -398,7 +398,7 @@ export const testimonials = [
     name: "Vikram Rao",
     title: "Operations Manager at FreshMart Retail Solutions",
     description:
-      "We sought AI-powered solutions to enhance our retail analytics, and ELIXIR AI provided a comprehensive platform that used artificial intelligence to analyze customer behavior, optimize inventory, and predict trends. Their platform helped us make data-driven decisions and personalize our marketing strategies for better customer engagement.",
+      "We sought AI-powered solutions to enhance our retail analytics, and ELIXIRAI provided a comprehensive platform that used artificial intelligence to analyze customer behavior, optimize inventory, and predict trends. Their platform helped us make data-driven decisions and personalize our marketing strategies for better customer engagement.",
   },
   {
     id: 4,
@@ -406,7 +406,7 @@ export const testimonials = [
     name: "Dr. Meera Nair",
     title: "Co-Founder of HealthNet Solutions",
     description:
-      "ELIXIR AI’s expertise in UI/UX design made a significant impact on our healthcare platform. They revamped our user interface, ensuring a clean and intuitive design that’s easy for our patients and clients to navigate. The new design has enhanced user engagement and significantly improved our platform's overall functionality.",
+      "ELIXIRAI’s expertise in UI/UX design made a significant impact on our healthcare platform. They revamped our user interface, ensuring a clean and intuitive design that’s easy for our patients and clients to navigate. The new design has enhanced user engagement and significantly improved our platform's overall functionality.",
   },
   {
     id: 5,
@@ -414,7 +414,7 @@ export const testimonials = [
     name: "Anjali Deshmukh",
     title: "Sales Director at Elite Properties Pvt Ltd",
     description:
-      "To elevate our real estate business, ELIXIR AI developed an innovative mobile app that offers virtual property tours, enhancing the buyer's experience. The app’s design and functionality were crafted with user-centric principles in mind, giving our clients an immersive experience from the convenience of their homes.",
+      "To elevate our real estate business, ELIXIRAI developed an innovative mobile app that offers virtual property tours, enhancing the buyer's experience. The app’s design and functionality were crafted with user-centric principles in mind, giving our clients an immersive experience from the convenience of their homes.",
   },
   {
     id: 6,
@@ -422,7 +422,7 @@ export const testimonials = [
     name: "Ajay Patil",
     title: "CTO of TechServe Solutions",
     description:
-      "When we needed a complete redesign of our website, ELIXIR AI delivered a sleek, responsive platform that reflects our growing tech company. The new site not only showcases our products but also integrates advanced AI solutions, providing personalized user experiences and ensuring seamless navigation across devices.",
+      "When we needed a complete redesign of our website, ELIXIRAI delivered a sleek, responsive platform that reflects our growing tech company. The new site not only showcases our products but also integrates advanced AI solutions, providing personalized user experiences and ensuring seamless navigation across devices.",
   },
   {
     id: 7,
@@ -430,7 +430,7 @@ export const testimonials = [
     name: "Sunil Kapoor",
     title: "Operations Manager at SteelTech Manufacturing",
     description:
-      "ELIXIR AI revolutionized our internal operations with their web and app development expertise, creating a solution that integrates seamlessly with our existing processes. The user-friendly interface and AI-powered automation have dramatically increased productivity, reducing errors and saving us valuable time and resources.",
+      "ELIXIRAI revolutionized our internal operations with their web and app development expertise, creating a solution that integrates seamlessly with our existing processes. The user-friendly interface and AI-powered automation have dramatically increased productivity, reducing errors and saving us valuable time and resources.",
   },
 ];
 

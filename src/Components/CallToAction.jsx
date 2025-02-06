@@ -7,7 +7,7 @@ const CallToAction = () => {
         data-aos="fade-up"
         className="main-heading text-center max-w-6xl mx-auto"
       >
-        “Unlock the Full Potential of Your Business with Our Services”
+        Unlock the Full Potential of Your Business with Our Services
       </h1>
       <p
         data-aos="fade-up"

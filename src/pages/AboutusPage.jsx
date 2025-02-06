@@ -21,7 +21,7 @@ const AboutusPage = () => {
             Innovating the Future with Advanced AI and Digital Solutions
           </h1>
           <p data-aos="fade-right" className="description mt-4">
-            At ELIXIR AI, we are a team of passionate professionals dedicated to
+            At ELIXIRAI, we are a team of passionate professionals dedicated to
             delivering innovative digital solutions that help businesses grow
             and succeed in an increasingly digital world. Founded with the goal
             of bridging the gap between great ideas and effective technology, we

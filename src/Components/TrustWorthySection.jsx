@@ -8,13 +8,13 @@ const TrustWorthySection = () => {
     <section className="paddingtop paddingbottom">
       <div className="wrapper text-center">
         <h2 data-aos="fade-up" className="main-heading max-w-6xl mx-auto">
-          Empowering Businesses with Cutting-Edge Solutions
+          How we Empower Businesses?
         </h2>
         <p data-aos="fade-up" className="description max-w-6xl mx-auto mt-2">
-          With a dedicated team and a results-driven approach, ELIXIR AI is
-          committed to delivering impactful,
-          <br /> high-quality tech solutions that drive business growth and
-          innovation.
+          With a dedicated team and a results-driven approach, ELIXIRAI is
+          committed to delivering
+          <br /> impactful, high-quality tech solutions that drive business
+          growth and innovation.
         </p>
 
         <div

@@ -6,6 +6,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
 import { allServices } from "../contant";
 import logo from "../assets/logo/logo.png";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -36,6 +37,9 @@ const Footer = () => {
             </Link>
             <Link>
               <GrFacebookOption className="text-2xl" />
+            </Link>
+            <Link>
+              <FaXTwitter className="text-2xl" />
             </Link>
           </div>
           {/* <p className="max-w-[25rem] mt-3">Address: {clientDetails.address}</p> */}

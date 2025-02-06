@@ -18,7 +18,7 @@ const ServicesList = () => {
       >
         Explore Our Offering
       </h1>
-      <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-primary rounded-lg">
+      <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-gradient-to-b from-primary to-primary/70  rounded-lg">
         <div className="w-full flex flex-col gap-10">
           <div
             data-aos="fade-up"
@@ -60,13 +60,15 @@ const ServicesList = () => {
                 );
               })}
             </ul>
-            <Link
-              data-aos="fade-up"
-              to={selectedService.link}
-              className="secondary-btn w-fit mt-6"
-            >
-              Click For More
-            </Link>
+            <div className="mt-5 w-full flex md:justify-start justify-center">
+              <Link
+                data-aos="fade-up"
+                to={selectedService.link}
+                className="px-5 py-3 rounded-full !bg-blue-800 border w-fit mt-6 md:ml-[1.5rem]"
+              >
+                Click For More
+              </Link>
+            </div>
           </div>
         </div>
       </div>

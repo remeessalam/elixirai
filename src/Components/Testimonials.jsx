@@ -1,4 +1,4 @@
-import bgImg from "../assets/images/testimonial-bg.png";
+// import bgImg from "../assets/images/testimonial-bg.png";
 import { useKeenSlider } from "keen-slider/react";
 import { RiDoubleQuotesR } from "react-icons/ri";
 import { testimonials } from "../contant";
@@ -53,8 +53,8 @@ const Testimonials = () => {
   return (
     <>
       <div
-        className="paddingtop paddingbottom relative bg-[#9fbffe89]"
-        style={{ backgroundImage: `url(${bgImg})` }}
+        className="paddingtop paddingbottom bg-bottom bg-no-repeat relative bg-[#9fbffe89]"
+        // style={{ backgroundImage: `url(${bgImg})` }}
       >
         <div className="blue-bg-shape left-0 top-0 rotate-45"></div>
         <div className="blue-bg-shape right-0 bottom-3 rotate-45"></div>
@@ -127,11 +127,13 @@ const Testimonials = () => {
                 data-aos-offset="-100"
                 className="description"
               >
-                At ELIXIR AI, we leverage the power of AI to create
-                transformative digital experiences that elevate businesses. Our
-                commitment to innovation drives us to develop intelligent
-                solutions that enhance efficiency and foster growth. Together,
-                we can turn your ideas into reality and shape a smarter future.
+                Here, innovation meets passion. We are committed to fostering a
+                culture of collaboration, integrity, and excellence. Our mission
+                is to empower businesses by providing world-class IT solutions
+                that drive success. Together, we embrace challenges and turn
+                them into opportunities for growth and advancement. Let&apos;s
+                shape the future of technology with unwavering dedication and
+                vision!
               </p>
             </div>
           </div>

@@ -23,40 +23,31 @@ const HomepageBanner = () => {
                   objectFit: "cover",
                   width: "100vw",
                   height: "100vh",
+                  transform: "scaleX(-1)",
                 },
               },
             },
           }}
         />
       </div>
-      {/* <div className="absolute inset-0 bg-black/10" /> */}
+      {/* <div className="absolute inset-0 bg-black/30" /> */}
 
       {/* Hero content */}
       <div className="relative grid md:grid-cols-2 gap-5 items-center wrapper w-full">
         <div className="text-center flex flex-col items-start sm:text-left">
           <div className="text-center mb-8">
-            <h1
-              data-aos="fade-right"
-              className="main-heading bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
-            >
+            <h1 className="bannertext"> YOUR VISION + OUR CODE </h1>
+            {/* <h1 data-aos="fade-right" className="bannertext">
               YOUR VISION
             </h1>
-            <h1
-              data-aos="fade-right"
-              className="main-heading bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
-            >
+            <h1 data-aos="fade-right" className="bannertext">
               +
             </h1>
-            <h1
-              data-aos="fade-right"
-              className="main-heading bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
-            >
+            <h1 data-aos="fade-right" className="bannertext">
               OUR CODE
-            </h1>
-            <h1
-              data-aos="fade-right"
-              className="main-heading bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent"
-            >
+            </h1> */}
+            <br />
+            <h1 data-aos="fade-right" className="text-lg sm:text-xl text-black">
               - Let’s Create Magic
             </h1>
           </div>
@@ -65,7 +56,8 @@ const HomepageBanner = () => {
             data-aos="fade-right"
             className="text-lg sm:text-xl text-black mb-8 max-w-3xl"
           >
-            ELIXIRAI is full service Software Development Company
+            ELIXIRAI is full service
+            <br /> Software Development Company
           </p>
           <Link
             data-aos="fade-right"
