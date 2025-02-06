@@ -34,7 +34,7 @@ const HomepageBanner = () => {
 
       {/* Hero content */}
       <div className="relative grid md:grid-cols-2 gap-5 items-center wrapper w-full">
-        <div className="text-center flex flex-col items-start sm:text-left">
+        <div className="text-center flex flex-col items-center sm:text-left">
           <div className="text-center mb-8">
             <h1 className="bannertext"> YOUR VISION + OUR CODE </h1>
             {/* <h1 data-aos="fade-right" className="bannertext">
