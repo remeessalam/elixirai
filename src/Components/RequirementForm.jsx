@@ -169,7 +169,7 @@ const RequirementForm = () => {
             id="message"
             {...register("message", { required: "Message is required" })}
             className="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            rows="4"
+            rows="3"
           />
           {errors.message && (
             <span className="text-red-500 text-sm mt-1">
