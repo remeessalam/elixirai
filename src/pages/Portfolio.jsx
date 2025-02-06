@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
 import PageBanner from "../Components/PageBanner";
 import { appPortfolio, webPortfolio } from "../contant";
+import SinglePortfolio from "../Components/SinglePortfolio";
 // eslint-disable-next-line
 const Portfolio = ({ isBannerShow }) => {
   return (
@@ -14,7 +14,21 @@ const Portfolio = ({ isBannerShow }) => {
           >
             Portfolio
           </h1>
-          {/* Web Development Portfolio */}
+          <div className="flex flex-col gap-8">
+            <SinglePortfolio porfolio={webPortfolio} />
+            <SinglePortfolio porfolio={appPortfolio} />
+          </div>
+        </div>
+      </div>
+      {/* <div className="min-h-screen bg-white paddingtop paddingbottom px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto">
+          <h1
+            data-aos="fade-up"
+            className="main-heading max-w-[60rem] mx-auto text-start sm:text-center"
+          >
+            Portfolio
+          </h1>
+
           <h2
             data-aos="fade-up"
             className="text-3xl font-bold text-gray-900 mb-4"
@@ -49,7 +63,6 @@ const Portfolio = ({ isBannerShow }) => {
             ))}
           </div>
 
-          {/* App Development Portfolio */}
           <h2
             data-aos="fade-up"
             className="text-3xl font-bold text-gray-900 mt-12 mb-4"
@@ -84,7 +97,7 @@ const Portfolio = ({ isBannerShow }) => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

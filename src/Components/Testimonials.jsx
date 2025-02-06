@@ -58,7 +58,7 @@ const Testimonials = () => {
       >
         <div className="blue-bg-shape left-0 top-0 rotate-45"></div>
         <div className="blue-bg-shape right-0 bottom-3 rotate-45"></div>
-        <div className="blurred-red-circle h-[25rem] w-[25rem] top-[-10rem] left-1/2 -z-10"></div>
+        {/* <div className="blurred-red-circle h-[25rem] w-[25rem] top-[-10rem] left-1/2 -z-10"></div> */}
         <div
           data-aos="fade-up"
           className="wrapper mb-[3rem] text-white text-center"

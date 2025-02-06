@@ -42,6 +42,7 @@ const GetInTouch = () => {
 export default GetInTouch;
 
 export const InquiryForm = () => {
+  // eslint-disable-next-line
   const [spinner, setSpinner] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [selectedService, setSelectedService] = useState(allServices[0].title);
@@ -168,6 +169,7 @@ export const InquiryForm = () => {
                 {...register("email", {
                   required: "Email is required",
                   pattern: {
+                    // eslint-disable-next-line
                     value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                     message: "Entered email is invalid",
                   },

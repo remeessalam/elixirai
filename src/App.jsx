@@ -7,6 +7,9 @@ import AppDevelopment from "./pages/ServicesPage/AppDevelopment";
 import ArtificialIntelligence from "./pages/ServicesPage/ArtificialIntelligence";
 import UiUxDesign from "./pages/ServicesPage/UiUxDesign";
 import { Toaster } from "react-hot-toast";
+import { LandingPage } from "./pages/LandingPage/LandingPage";
+import LandingHeader from "./Components/landingPages/LandingHeader";
+import Footer from "./Layout/Footer";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const AboutusPage = lazy(() => import("./pages/AboutusPage"));
@@ -92,6 +95,42 @@ const AppRouter = createBrowserRouter([
         element: <UiUxDesign />,
       },
     ],
+  },
+  {
+    path: "/web-development",
+    element: (
+      <>
+        <Toaster
+          position="top-center"
+          reverseOrder={false}
+          toastOptions={{
+            style: {
+              background: "#000000",
+              color: "#ffffff",
+            },
+          }}
+        />
+        <LandingPage page={"web-development"} />
+      </>
+    ),
+  },
+  {
+    path: "/app-development",
+    element: (
+      <>
+        <Toaster
+          position="top-center"
+          reverseOrder={false}
+          toastOptions={{
+            style: {
+              background: "#000000",
+              color: "#ffffff",
+            },
+          }}
+        />
+        <LandingPage page={"app-development"} />
+      </>
+    ),
   },
 ]);
 
