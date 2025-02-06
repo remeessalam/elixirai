@@ -241,8 +241,8 @@ export const LandingPage = ({ page }) => {
           </div>
         </div>
         <CallToAction />
-        {/* <Testimonials /> */}
-        {/* <ClientsLogoSlider /> */}
+        <Testimonials />
+        <ClientsLogoSlider />
         {/* <EndlessOpportunitiesSection /> */}
         {/* <div
         data-aos="fade-up"
