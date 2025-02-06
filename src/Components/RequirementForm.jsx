@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import { clientDetails } from "../contant";
 
 const RequirementForm = () => {
   const [spinner, setSpinner] = useState(false);
@@ -30,14 +31,15 @@ const RequirementForm = () => {
 
     // Construct the request payload
     const payload = {
-      to: data.email, // Sending to the user's email
+      to: clientDetails.email,
+      name: "Elixirai",
       subject: `New Requirement from ${data.name}`,
       body: emailBody,
     };
 
     try {
       const response = await fetch(
-        "https://smtp-api-tawny.vercel.app/send-email",
+        "https://send-mail-redirect-boostmysites.vercel.app/send-email",
         {
           method: "POST",
           headers: {
@@ -251,3 +253,44 @@ const RequirementForm = () => {
 };
 
 export default RequirementForm;
+
+// const onSubmit = async (values) => {
+//   setLoading(true);
+//   try {
+//     let body =
+//       "Full Name : " +
+//       values.fullName +
+//       "\n" +
+//       "Email : " +
+//       values.email +
+//       "\n" +
+//       "Message : " +
+//       values.message +
+//       "\n";
+
+//     const data = {
+//       body,
+//       name: "ZNTH Tech",
+//       subject: "New Enquiry",
+//       email: companyDetails.email,
+//     };
+
+//     const res = await axios.post(
+//       "https://send-mail-redirect-boostmysites.vercel.app/send-email",
+//       data
+//     );
+
+//     if (res.data.success) {
+//       toast.success(res.data.message);
+//       reset();
+//       navigate("/thank-you");
+//     } else {
+//       toast.error(res.data.message);
+
+//     }
+//   } catch (err) {
+//     toast.error("Something went wrong");
+
+//   } finally {
+//     setLoading(false);
+//   }
