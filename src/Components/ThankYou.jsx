@@ -15,7 +15,7 @@ const Thankyou = () => {
           </div>
         </div>
       </div> */}
-      <div className="wrapper  h-full flex flex-col items-center py-[15rem] gap-3 text-white text-center">
+      <div className="wrapper  h-full flex flex-col items-center py-[15rem] gap-3 text-black text-center">
         <h1 className="heading-1">Thank You!</h1>
         <p className="desc !font-semibold">
           We have received your message and will get back to you as soon as
