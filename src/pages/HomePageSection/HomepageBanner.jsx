@@ -4,9 +4,9 @@ import RequirementForm from "../../Components/RequirementForm";
 import { Link } from "react-router-dom";
 const HomepageBanner = () => {
   return (
-    <div className="relative  h-fit flex justify-center items-center pt-[8rem]">
+    <div className="relative min-h-screen flex justify-center items-center pt-[8rem]">
       {/* Background overlay */}
-      <div className="absolute top-0  w-full  bg-black">
+      <div className="absolute top-0 min-h-screen w-full  bg-black">
         <ReactPlayer
           url={video}
           loop={true}
@@ -22,7 +22,7 @@ const HomepageBanner = () => {
                 style: {
                   objectFit: "cover",
                   width: "100vw",
-                  // height: "100vh",
+                  height: "100vh",
                 },
               },
             },

@@ -13,7 +13,7 @@ const RequirementForm = () => {
     // Handle form submission here
   };
   return (
-    <div className="bg-white p-8 rounded-2xl shadow-xl w-full">
+    <div className="bg-white p-4 rounded-2xl shadow-xl w-full">
       <h1 className="text-2xl font-semibold text-center">
         Share your Requirements
       </h1>
@@ -23,7 +23,7 @@ const RequirementForm = () => {
       </p>
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="grid md:grid-cols-2 gap-6"
+        className="grid md:grid-cols-2 gap-3"
       >
         {/* Name Field */}
         <div className="flex flex-col">

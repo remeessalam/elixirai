@@ -17,7 +17,7 @@ const HomePage = () => {
   return (
     <div>
       <HomepageBanner />
-      <div data-aos="fade-up" className=" md:hidden flex wrapper pt-[5rem]">
+      <div data-aos="fade-up" className=" lg:hidden flex wrapper pt-[5rem]">
         <RequirementForm />
       </div>
       <div data-aos="fade-up" className="paddingtop">
