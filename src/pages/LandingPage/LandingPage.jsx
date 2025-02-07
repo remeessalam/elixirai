@@ -237,6 +237,11 @@ export const LandingPage = ({ page }) => {
               porfolio={
                 page === "web-development" ? webPortfolio : appPortfolio
               }
+              portfoliofor={
+                page === "web-development"
+                  ? "Web Development"
+                  : "App Development"
+              }
             />
           </div>
         </div>

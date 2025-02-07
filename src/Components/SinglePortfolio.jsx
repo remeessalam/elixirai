@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 // eslint-disable-next-line
-const SinglePortfolio = ({ porfolio }) => {
+const SinglePortfolio = ({ porfolio, portfoliofor }) => {
   return (
     <div className="">
       <h2 data-aos="fade-up" className="text-3xl font-bold text-gray-900 mb-4">
-        Web Development
+        {portfoliofor}
       </h2>
       <p data-aos="fade-up" className="text-gray-600 mb-8">
         Our web development projects showcase innovative and user-friendly

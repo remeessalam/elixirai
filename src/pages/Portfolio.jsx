@@ -15,8 +15,14 @@ const Portfolio = ({ isBannerShow }) => {
             Portfolio
           </h1>
           <div className="flex flex-col gap-8">
-            <SinglePortfolio porfolio={webPortfolio} />
-            <SinglePortfolio porfolio={appPortfolio} />
+            <SinglePortfolio
+              porfolio={webPortfolio}
+              portfoliofor="Web Development"
+            />
+            <SinglePortfolio
+              porfolio={appPortfolio}
+              portfoliofor="App Development"
+            />
           </div>
         </div>
       </div>
