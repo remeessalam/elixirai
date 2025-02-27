@@ -8,8 +8,6 @@ import ArtificialIntelligence from "./pages/ServicesPage/ArtificialIntelligence"
 import UiUxDesign from "./pages/ServicesPage/UiUxDesign";
 import { Toaster } from "react-hot-toast";
 import { LandingPage } from "./pages/LandingPage/LandingPage";
-import LandingHeader from "./Components/landingPages/LandingHeader";
-import Footer from "./Layout/Footer";
 
 const HomePage = lazy(() => import("./pages/HomePage"));
 const AboutusPage = lazy(() => import("./pages/AboutusPage"));
