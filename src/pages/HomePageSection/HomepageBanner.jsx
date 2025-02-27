@@ -37,7 +37,7 @@ const HomepageBanner = () => {
       if (!videoReady) {
         setLoading(false);
       }
-    }, 5000);
+    }, 10000);
 
     return () => {
       clearTimeout(timeout);
