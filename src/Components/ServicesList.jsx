@@ -14,6 +14,7 @@ const ServicesList = () => {
     <section className="wrapper  paddingbottom">
       <h1
         data-aos="fade-up"
+        data-aos-offset="-700"
         className="main-heading text-center mb-8 text-black"
       >
         Explore Our Offering
@@ -22,6 +23,7 @@ const ServicesList = () => {
         <div className="w-full flex flex-col gap-10">
           <div
             data-aos="fade-up"
+            data-aos-offset="-700"
             className="bg-white shadow-inner shadow-primary p-4 lg:p-6 rounded-lg"
           >
             <h4 className="text-2xl font-medium">Our Services</h4>
@@ -44,7 +46,11 @@ const ServicesList = () => {
         </div>
         <div className="w-full">
           <div className="py-[2rem] text-white">
-            <h4 data-aos="fade-up" className="text-3xl font-medium">
+            <h4
+              data-aos="fade-up"
+              data-aos-offset="-700"
+              className="text-3xl font-medium"
+            >
               {selectedService.title}
             </h4>
             <ul className="list-disc">
@@ -53,6 +59,7 @@ const ServicesList = () => {
                   <li
                     key={obj}
                     data-aos="fade-up"
+                    data-aos-offset="-700"
                     className="mt-4 description whitespace-pre-line"
                   >
                     {obj}
@@ -63,6 +70,7 @@ const ServicesList = () => {
             <div className="mt-5 w-full flex md:justify-start justify-center">
               <Link
                 data-aos="fade-up"
+                data-aos-offset="-700"
                 to={selectedService.link}
                 className="px-5 py-3 rounded-full !bg-blue-800 border w-fit mt-6 md:ml-[1.5rem]"
               >

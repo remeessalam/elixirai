@@ -59,19 +59,35 @@ const WhyChooseUs = () => {
   return (
     <section className="paddingtop paddingbottom bg-gradient-to-r from-secondary/30 to-primary/30">
       <div className="wrapper text-center text-black flex flex-col gap-7">
-        <div data-aos="fade-up" className="gradient-rounded-text-box mx-auto">
+        <div
+          data-aos="fade-up"
+          data-aos-offset="-700"
+          className="gradient-rounded-text-box mx-auto"
+        >
           Why Choose Us
         </div>
         <div className="flex flex-col gap-5">
-          <h2 data-aos="fade-up" className="main-heading">
+          <h2
+            data-aos="fade-up"
+            data-aos-offset="-700"
+            className="main-heading"
+          >
             Magic Behind Our IT Solutions
           </h2>
-          <p data-aos="fade-up" className="desc max-w-[40rem] mx-auto">
+          <p
+            data-aos="fade-up"
+            data-aos-offset="-700"
+            className="desc max-w-[40rem] mx-auto"
+          >
             We begin by conducting a comprehensive needs assessment to
             <br />
             understand your specific requirements, challenges, and goals.
           </p>
-          <div data-aos="fade-up" className="w-full block lg:hidden">
+          <div
+            data-aos="fade-up"
+            data-aos-offset="-700"
+            className="w-full block lg:hidden"
+          >
             <img
               src={whyChooseUsPng}
               className="object-contain max-h-[20rem] mx-auto"
@@ -82,6 +98,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col gap-5 h-full">
               <div
                 data-aos="fade-right"
+                data-aos-offset="-700"
                 className="p-5 border border-primary rounded-xl w-full h-full"
               >
                 <div className="flex w-full text-start items-center justify-between gap-3">
@@ -99,6 +116,7 @@ const WhyChooseUs = () => {
               </div>
               <div
                 data-aos="fade-right"
+                data-aos-offset="-700"
                 className="p-5 border border-primary rounded-xl w-full h-full"
               >
                 <div className="flex w-full text-start items-center justify-between gap-3">
@@ -115,7 +133,11 @@ const WhyChooseUs = () => {
                 </p>
               </div>
             </div>
-            <div data-aos="fade-up" className="w-full lg:block hidden">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="-700"
+              className="w-full lg:block hidden"
+            >
               <img
                 src={whyChooseUsPng}
                 className="object-contain max-h-[25rem] mx-auto"
@@ -125,6 +147,7 @@ const WhyChooseUs = () => {
             <div className="flex flex-col gap-5 h-full">
               <div
                 data-aos="fade-left"
+                data-aos-offset="-700"
                 className="p-5 border border-primary rounded-xl w-full h-full"
               >
                 <div className="flex w-full text-start items-center justify-between gap-3">
@@ -142,6 +165,7 @@ const WhyChooseUs = () => {
               </div>
               <div
                 data-aos="fade-left"
+                data-aos-offset="-700"
                 className="p-5 border border-primary rounded-xl w-full h-full"
               >
                 <div className="flex w-full text-start items-center justify-between gap-3">

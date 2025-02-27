@@ -5,6 +5,7 @@ const UnlockEfficiency = () => {
     <section className="paddingtop paddingbottom text-black bg-gradient-to-r from-primary/30 to-secondary/30">
       <div
         data-aos="fade-up"
+        data-aos-offset="-700"
         className="wrapper flex flex-col text-black items-center gap-5 text-center"
       >
         <div className="gradient-rounded-text-box">Unlock Efficiency</div>

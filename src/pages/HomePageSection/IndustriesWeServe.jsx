@@ -5,10 +5,18 @@ const IndustriesWeServe = () => {
     <section className="wrapper paddingtop paddingbottom">
       <div className="flex flex-col gap-3">
         <div className="flex flex-col gap-3 text-center">
-          <h2 data-aos="fade-up" className="main-heading">
+          <h2
+            data-aos="fade-up"
+            data-aos-offset="-700"
+            className="main-heading"
+          >
             Transforming Industries with Tailored Solutions
           </h2>
-          <p data-aos="fade-up" className="mt-2 description mb-3">
+          <p
+            data-aos="fade-up"
+            data-aos-offset="-700"
+            className="mt-2 description mb-3"
+          >
             We cater to a wide range of industries, delivering tailored AI and
             tech solutions to meet specific needs:
           </p>
@@ -18,6 +26,7 @@ const IndustriesWeServe = () => {
             <div
               key={item.id}
               data-aos="fade-up"
+              data-aos-offset="-700"
               className="p-5 rounded-lg shadow-lg relative group overflow-hidden min-h-[13rem]"
             >
               <img

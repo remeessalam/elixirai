@@ -61,6 +61,7 @@ const Testimonials = () => {
         {/* <div className="blurred-red-circle h-[25rem] w-[25rem] top-[-10rem] left-1/2 -z-10"></div> */}
         <div
           data-aos="fade-up"
+          data-aos-offset="-700"
           className="wrapper mb-[3rem] text-white text-center"
         >
           <p className="uppercase z-10 text-primary font-medium relative mb-2 gradient-text">
@@ -70,7 +71,12 @@ const Testimonials = () => {
             What Our Clients Say
           </h1>
         </div>
-        <div data-aos="fade-left" ref={sliderRef} className="keen-slider">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="-700"
+          ref={sliderRef}
+          className="keen-slider"
+        >
           {testimonials.map(({ id, title, name, description }) => (
             <div key={id} className="keen-slider__slide">
               <div className="flex flex-col items-center bg-white p-5 mx-2 rounded-xl h-full">
@@ -103,7 +109,7 @@ const Testimonials = () => {
         <section className="wrapper">
           <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 paddingtop paddingbottom">
             <div
-              data-aos-offset="-100"
+              data-aos-offset="-1000"
               data-aos="fade-right"
               className="md:aspect-[3/4] w-full overflow-hidden flex flex-col paddingtop"
             >
@@ -116,7 +122,7 @@ const Testimonials = () => {
             </div>
             <div className="flex flex-col gap-5">
               <h3
-                data-aos-offset="-100"
+                data-aos-offset="-1000"
                 data-aos="fade-up"
                 className="main-heading"
               >
@@ -124,7 +130,7 @@ const Testimonials = () => {
               </h3>
               <p
                 data-aos="fade-up"
-                data-aos-offset="-100"
+                data-aos-offset="-1000"
                 className="description"
               >
                 Here, innovation meets passion. We are committed to fostering a

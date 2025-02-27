@@ -12,7 +12,11 @@ const GetInTouch = () => {
       <div className="blurred-red-circle h-[25rem] w-[25rem] bottom-[2rem] right-3 -z-10"></div>
       <div className="red-g-shape bottom-[-2rem] left-[-2rem] -z-10 rotate-[-45deg]"></div>
       <div className="wrapper grid grid-cols-1 lg:grid-cols-2 justify-items-center lg:justify-items-stretch items-center gap-7">
-        <div data-aos="fade-right" className="flex flex-col gap-5">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="-700"
+          className="flex flex-col gap-5"
+        >
           <h1 className="main-heading text-center lg:text-start">
             Ready to find out
             <br />
@@ -126,7 +130,11 @@ export const InquiryForm = () => {
       .finally(() => setSpinner(false));
   };
   return (
-    <div data-aos="fade-left" className="flex flex-col items-start gap-3 group">
+    <div
+      data-aos="fade-left"
+      data-aos-offset="-700"
+      className="flex flex-col items-start gap-3 group"
+    >
       <p className="gradient-text uppercase !text-blue-600 font-medium">
         Let&apos;s connect
       </p>

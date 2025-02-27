@@ -17,10 +17,14 @@ const HomePage = () => {
   return (
     <div>
       <HomepageBanner />
-      <div data-aos="fade-up" className=" lg:hidden flex wrapper pt-[5rem]">
+      <div
+        data-aos="fade-up"
+        data-aos-offset="-700"
+        className=" lg:hidden flex wrapper pt-[5rem]"
+      >
         <RequirementForm />
       </div>
-      <div data-aos="fade-up" className="paddingtop">
+      <div data-aos="fade-up" data-aos-offset="-700" className="paddingtop">
         <ClientsLogoSlider hide={true} />
       </div>
       {/* <LogoSlider /> */}

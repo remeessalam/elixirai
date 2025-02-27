@@ -10,6 +10,7 @@ const Portfolio = ({ isBannerShow }) => {
         <div className="max-w-7xl mx-auto">
           <h1
             data-aos="fade-up"
+            data-aos-offset="-700"
             className="main-heading max-w-[60rem] mx-auto text-start sm:text-center"
           >
             Portfolio

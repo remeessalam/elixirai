@@ -5,12 +5,14 @@ const CallToAction = () => {
     <div className="flex flex-col wrapper  gap-4 items-center paddingtop paddingbottom mb-[2rem]">
       <h1
         data-aos="fade-up"
+        data-aos-offset="-700"
         className="main-heading text-center max-w-6xl mx-auto"
       >
         Unlock the Full Potential of Your Business with Our Services
       </h1>
       <p
         data-aos="fade-up"
+        data-aos-offset="-700"
         className="description text-center max-w-6xl mx-auto"
       >
         We provide cutting-edge solutions tailored to your business needs,
@@ -20,6 +22,7 @@ const CallToAction = () => {
       </p>
       <Link
         data-aos="fade-up"
+        data-aos-offset="-700"
         to="/contact-us"
         className="primary-btn rounded-full w-fit mt-4"
       >

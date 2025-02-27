@@ -35,13 +35,19 @@ const WorkProcess = () => {
       <div className="blurred-blue left-[-10%] bottom-[-10%]"></div>
       <div
         data-aos="fade-up"
+        data-aos-offset="-700"
         className="wrapper flex flex-col items-start sm:items-center gap-5 z-10 paddingtop"
       >
-        <div data-aos="fade-up" className={`gradient-rounded-text-box  gap-1`}>
+        <div
+          data-aos="fade-up"
+          data-aos-offset="-700"
+          className={`gradient-rounded-text-box  gap-1`}
+        >
           Work Process
         </div>
         <h1
           data-aos="fade-up"
+          data-aos-offset="-700"
           className="main-heading max-w-[60rem] mx-auto text-start sm:text-center"
         >
           4 Steps to Project Development
