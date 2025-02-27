@@ -1,9 +1,9 @@
 import ReactPlayer from "react-player";
-// import video from "../../assets/video/homeBanner.mp4";
+import video from "../../assets/video/homeBanner.mp4";
 import RequirementForm from "../../Components/RequirementForm";
 import { Link } from "react-router-dom";
 import { lazy } from "react";
-const video = lazy(() => import("../../assets/video/homeBanner.mp4"));
+// const video = lazy(() => import("../../assets/video/homeBanner.mp4"));
 
 const HomepageBanner = () => {
   return (
