@@ -1,10 +1,9 @@
-import React from "react";
 // import logo from "../../assets/logo/logo.png";
 import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { GrFacebookOption } from "react-icons/gr";
-import { allServices } from "../contant";
+import { allServices, clientDetails } from "../contant";
 import logo from "../assets/logo/logo.png";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -29,13 +28,13 @@ const Footer = () => {
             latest work and announcements.
           </p>
           <div className="flex mt-3 gap-5 items-center">
-            <Link>
+            <Link to={clientDetails.linkedin}>
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link>
+            <Link to={clientDetails.instagram}>
               <AiFillInstagram className="text-2xl" />
             </Link>
-            <Link>
+            <Link to={clientDetails.facebook}>
               <GrFacebookOption className="text-2xl" />
             </Link>
             <Link>

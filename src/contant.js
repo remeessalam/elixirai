@@ -62,6 +62,9 @@ export const clientDetails = {
   whatsappbox: "8591331353",
   email: "support@elixirai.co",
   address: "Malad West, Mumbai, Maharashtra – 400095, India",
+  instagram: "https://www.instagram.com/elixir.a.i?igsh=dHNhZnBta2l2aDRw",
+  facebook: "https://www.facebook.com/people/Elixirai/61573613548896/",
+  linkedin: "https://www.linkedin.com/company/ai-elixir/",
 };
 
 export const navItems = [
